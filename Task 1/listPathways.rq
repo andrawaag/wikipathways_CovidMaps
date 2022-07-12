@@ -1,0 +1,11 @@
+PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?property
+WHERE {
+    VALUES ?organism {"Homo sapiens"}
+    SERVICE <http://sparql.wikipathways.org/sparql> {
+        ?pathway wp:organismName ?organism ;
+                 ?property ?o .
+    }
+}

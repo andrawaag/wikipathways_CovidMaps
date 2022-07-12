@@ -1,0 +1,9 @@
+# listOrganisms: https://webservice.wikipathways.org/ui/#!/All_functions/get_listOrganisms
+PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
+
+SELECT DISTINCT ?organism
+WHERE {
+    SERVICE <http://sparql.wikipathways.org/sparql> {
+        ?pathway wp:organismName ?organism .
+    }
+}

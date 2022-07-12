@@ -1,0 +1,118 @@
+PREFIX : <http://vocabulary.wikipathways.org/schema>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX idorgwp: <https://identifiers.org/wikipathways/>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX wpins: <http://www.wikipathways.org/instance/>
+PREFIX cur: <http://vocabularies.wikipathways.org/wp#Curation:>
+PREFIX pwrdf: <http://rdf.wikipathways.org/Pathway/>
+PREFIX pubmed: <https://identifiers.org/pubmed/>
+PREFIX cito: <http://purl.org/spar/cito/>
+PREFIX iouniprot: <https://identifiers.org/uniprot/>
+start = @:pathway
+
+:pathway {
+    rdf:type skos:Collection, wp:Pathway ;
+    dc:identifier [idorgwp:~] ;
+    dcterms:identifier xsd:string ;
+    dc:source ["Wikipathways"] ;
+    dc:title xsd:string ;
+    dcterms:description xsd:string ;
+    foaf:page [wpins:~] ;
+    wp:isAbout [pwrdf:~] ;
+
+    dcterms:references @:references* ;
+    cito:cites @:references* ;
+
+    wp:organismName @:organismName ;
+    wp:organism @:organism
+    wp:ontologyTag @:ontologyTags ;
+    wp:pathwayOntologyTag [obo:~] ;
+}
+
+:organismName [
+    "Homo sapiens"^^xsd:string
+    "Mus musculus"^^xsd:string
+    "Saccharomyces cerevisiae"^^xsd:string
+    "Solanum lycopersicum"^^xsd:string
+    "Caenorhabditis elegans"^^xsd:string
+    "Bos taurus"^^xsd:string
+    "Canis familiaris"^^xsd:string
+    "Escherichia coli"^^xsd:string
+    "Plasmodium falciparum"^^xsd:string
+    "Populus trichocarpa"^^xsd:string
+    "Mycobacterium tuberculosis"^^xsd:string
+    "Pan troglodytes"^^xsd:string
+    "Gallus gallus"^^xsd:string
+    "Bacillus subtilis"^^xsd:string
+    "Drosophila melanogaster"^^xsd:string
+    "Anopheles gambiae"^^xsd:string
+    "Rattus norvegicus"^^xsd:string
+    "Arabidopsis thaliana"^^xsd:string
+    "Danio rerio"^^xsd:string
+    "Oryza sativa"^^xsd:string
+    "Gibberella zeae"^^xsd:string
+    "Zea mays"^^xsd:string
+    "Equus caballus"^^xsd:string
+]
+
+:organism {
+    obo:NCBITaxon_4081
+    obo:NCBITaxon_4932
+    obo:NCBITaxon_6239
+    obo:NCBITaxon_562
+    obo:NCBITaxon_9913
+    obo:NCBITaxon_10090
+    obo:NCBITaxon_9606
+    obo:NCBITaxon_7955
+    obo:NCBITaxon_1773
+    obo:NCBITaxon_3694
+    obo:NCBITaxon_5833
+    obo:NCBITaxon_7165
+    obo:NCBITaxon_9031
+    obo:NCBITaxon_9598
+    obo:NCBITaxon_9615
+    obo:NCBITaxon_1423
+    obo:NCBITaxon_7227
+    obo:NCBITaxon_10116
+    obo:NCBITaxon_4577
+    obo:NCBITaxon_3702
+    obo:NCBITaxon_4530
+    obo:NCBITaxon_5518
+    obo:NCBITaxon_9796
+}
+
+:ontologyTags [
+   obo:~
+   cur:~
+]
+
+:references [
+   pubmed:~
+]
+
+:complex {
+   rdf:type [wp:Complex], [wp:DataNode] ;
+   dcterms:isPartOf @:pathway ;
+   wp:isAbout [] ; # TODO revisit
+   wp:participants [iouniprot:~]+ ;
+}
+
+:interaction {
+   rdf:type [wp:Interaction];
+   rdf:type @:interaction_types ;
+   dcterms:identifier xsd:string ;
+   dcterms:isPartOf @:pathway ;
+   dcterms:references @:references ;
+
+}
+
+:interaction_types [
+   wp:DirectedInteraction
+
+]

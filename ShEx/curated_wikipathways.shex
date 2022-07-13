@@ -272,10 +272,10 @@ PREFIX complexportal: <https://identifiers.org/complexportal/>
 :Binding
 {
    rdf:type  [wp:Interaction]  ;                               # 100.0 %
-   rdf:type  [wp:Binding]  ;                                   
-   rdf:type  [wp:ComplexBinding]  ?;      
+   rdf:type  [wp:Binding]  ;
+   rdf:type  [wp:ComplexBinding]  ?;
    rdf:type  [wp:DirectedInteraction]  ?;
-   
+
    wp:participants  @:DataNode or                                    # 100.0 %
              @:Complex or
              @:Protein or
@@ -289,10 +289,10 @@ PREFIX complexportal: <https://identifiers.org/complexportal/>
              @:Binding or
              @:Stimulation or
              @:Inhibition +;
-            
+
    dcterms:isPartOf  IRI  ;                                    # 100.0 %
    wp:isAbout  IRI  +;                                         # 100.0 %
-       
+
    wp:target  @:DataNode or
               @:GeneProduct or
               @:Protein or
@@ -307,7 +307,7 @@ PREFIX complexportal: <https://identifiers.org/complexportal/>
               @:Stimulation or
               @:Inhibition *;
 
-   wp:source  @:DataNode or 
+   wp:source  @:DataNode or
               @:GeneProduct or
               @:Protein or
               @:Metabolite or
@@ -317,7 +317,7 @@ PREFIX complexportal: <https://identifiers.org/complexportal/>
 
    dcterms:references  @:PublicationReference  *;
    dcterms:bibliographicCitation  @:PublicationReference  *;
-   dc:source  xsd:string  ?;        
+   dc:source  xsd:string  ?;
    dcterms:identifier  xsd:string  ?
 }
 
@@ -328,14 +328,14 @@ PREFIX complexportal: <https://identifiers.org/complexportal/>
    dcterms:isPartOf  IRI  +;                                   # 100.0 %
    foaf:page  IRI  ;                                           # 100.0 %
    dcterms:identifier  xsd:string  ?;
-   wp:bdbWikidata  [wd:~]  *;        
+   wp:bdbWikidata  [wd:~]  *;
    owl:sameAs  IRI  *
 }
 
 
 :Pathway
 {
-   rdf:type  [wp:Pathway]  ; 
+   rdf:type  [wp:Pathway]  ;
    rdf:type  [skos:Collection]  ?;
    rdf:type  [wp:DataNode]  ?;
    rdf:type  [wp:GeneProduct]  ?;
@@ -343,7 +343,7 @@ PREFIX complexportal: <https://identifiers.org/complexportal/>
    dc:source  xsd:string  ;                                    # 100.0 %
    dcterms:identifier  xsd:string  ;                           # 100.0 %
    wp:isAbout  IRI  +;                                         # 100.0 %
-            
+
    dc:identifier  @:Pathway or @:DataNode or @:GeneProduct ;                                       # 100.0 %
    foaf:page  IRI  ;                                           # 100.0 %
                # 74.78882391163093 % obj: skos:Collection. Cardinality: {1}
@@ -353,22 +353,22 @@ PREFIX complexportal: <https://identifiers.org/complexportal/>
    wp:organism  IRI  ?;
    wp:pathwayOntologyTag  [obo:~]  *;
    dcterms:description  xsd:string  *;
-   cito:cites  @:PublicationReference  *;         
+   cito:cites  @:PublicationReference  *;
    dcterms:references  @:PublicationReference  *;
 
    dcterms:isPartOf  IRI  *;
     rdfs:label  xsd:string  *;
 
    dc:creator  @:Person  *;
-            
+
    wp:diseaseOntologyTag  [obo:~]  *;
-            
+
    pav:hasVersion  IRI  ?;
    wp:cellTypeOntologyTag  [obo:~]  *;
 
    dcterms:description  rdf:langString  ?;
-            
-   
+
+
    wp:bdbEnsembl [ensembl:~]?;
    wp:bdbUniprot  [uniprot:~]  *;
    wp:bdbEntrezGene  [ncbigene:~]  ?

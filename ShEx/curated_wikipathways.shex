@@ -58,64 +58,77 @@ PREFIX rhea: <https://identifiers.org/rhea/>
 PREFIX obo: <http://purl.obolibrary.org/obo/>
 PREFIX complexportal: <https://identifiers.org/complexportal/>
 
-:Metabolite
+:Pathway EXTENDS :DataNode
 {
-   rdf:type  [wp:DataNode]  ;                                  # 100.0 %
-   rdf:type  [wp:Metabolite]  ;
-   rdf:type  [wp:Protein]  ?;
-   rdf:type  [wp:GeneProduct]  ?;                               # 100.0 %
-   dcterms:isPartOf  [pathway:~ wpio:~] +;                                   # 100.0 %
-   wp:isAbout  [pathway:~ wpio:~]  +;                                         # 100.0 %
-   dc:source  @:sources  ;
-   rdfs:label  xsd:string  +;
-   dc:identifier @:dcidentifier  ;
-   dcterms:identifier  xsd:string  +;                          # 100.0 %
-   foaf:page  IRI  *;
-   wp:bdbWikidata  [wd:~]  *;
-   wp:bdbChEBI  [chebi:~]  *;
-   wp:bdbPubChem  [compound:~]  *;
-   rdfs:seeAlso  IRI  *;
-   wp:bdbInChIKey  [inchikey:~]  *;
-   wp:bdbChemspider  [chemspider:~]  *;
-   wp:bdbKeggCompound  [keggcompound:~]  *;
-   wp:bdbHmdb  [hmdb:~]  *;
-   wp:bdbLipidMaps  [lipidmaps:~]  *;
+   &:reuse_all ;
+   rdf:type  [wp:Pathway]  ;
+   rdf:type  [skos:Collection]  ?; # TODO: curate
+   rdf:type  [wp:DataNode]  ?;
+   rdf:type  [wp:GeneProduct]  ?; # TODO: curate
+
+   wp:organismName  xsd:string  ?;
+   wp:ontologyTag  IRI  *;
+   dc:title  rdf:langString  ?;
+   wp:organism  IRI  ?;
+   wp:pathwayOntologyTag  [obo:~]  *;
+   dcterms:description  xsd:string  *;
+   cito:cites  @:PublicationReference  *;
    dcterms:references  @:PublicationReference  *;
-   wp:bdbReactome  [reactome:]  ?;
+
+   dc:creator  @:Person  *;
+
+   wp:diseaseOntologyTag  [obo:~]  *;
+
+   pav:hasVersion  IRI  ?;
+   wp:cellTypeOntologyTag  [obo:~]  *;
+
+   dcterms:description  rdf:langString  ?; # TODO curate
+
+
+   wp:bdbEnsembl [ensembl:~]?; # TODO curate
+   wp:bdbUniprot  [uniprot:~]  *; #TODO curate
+   wp:bdbEntrezGene  [ncbigene:~]  ? #TODO curate
 }
 
+:shape_all
+{
+    $:reuse_all (
+       foaf:page  IRI  *;
+       dc:identifier @:dcidentifier  ?;
+       wp:isAbout  [pathway:~ wpio:~]  +;                                        # 100.0 %
+       dcterms:isPartOf  [pathway:~ wpio:~] +;                                    # 100.0 %
+       rdfs:label  xsd:string  *;
+       dcterms:identifier  xsd:string *;
+       dc:source  @:sources ?;
+       dcterms:references  @:PublicationReference  *;
+       rdfs:seeAlso  IRI  *;
+       dc:creator  @:Person  *;
+       pav:hasVersion  IRI  ?;
+       dcterms:bibliographicCitation  [pubmed:~]  *;
+    )
+}
 
 :DataNode
 {
-   rdf:type  [wp:DataNode]  ;
-   rdf:type  [wp:Protein]  ?;
-   rdf:type  [wp:GeneProduct]  ?;
-   rdf:type  [wp:Complex]  ?;
-   rdf:type  [wp:Metabolite]  ?;
-   rdf:type  [wp:Rna]  ?;
-   rdf:type  [wp:Pathway]  ?;
+   &:reuse_all
+   $:reuse_datanode (
+        rdf:type  [wp:DataNode]  ;
 
-   wp:isAbout  [pathway:~ wpio:~]  +;                                        # 100.0 %
-   dcterms:isPartOf  [pathway:~ wpio:~] +;                                    # 100.0 %
-   rdfs:label  xsd:string  *;
-   dcterms:identifier  xsd:string *;
-   dc:source  @:sources ?;
-   dc:identifier @:dcidentifier  ?;
-   foaf:page  IRI  *;
-   wp:participants  IRI  *;
-   dcterms:references  @:PublicationReference  *;
-   rdfs:seeAlso  IRI  *;
-   dc:creator  @:Person  *;
-   pav:hasVersion  IRI  ?;
-   dcterms:bibliographicCitation  [pubmed:~]  *;
-   rdfs:label  rdf:langString  ?;
-   dc:identifier  @<BNode>  ? ;
-   wp:bdbEnsembl [ensembl:~]  *;
-   wp:bdbEntrezGene  [ncbigene:~]  *;
-   wp:bdbUniprot  [uniprot:~]  *;
-   wp:bdbHgncSymbol  [hgncsymbol:~]  *;
+        ## to be curated
+        rdfs:label  rdf:langString  ?; # TODO curate
+        dc:identifier  @<BNode>  ? # TODO curate
+        )
+}
+
+:Metabolite
+{
+   &:reuse_datanode ;
+   rdf:type  [wp:Metabolite]  ;
+
+   ## to be curated
+   rdf:type  [wp:Protein]  ?; # TODO: https://bit.ly/3ATMJlB
+   rdf:type  [wp:GeneProduct]  ?; # TODO https://bit.ly/3RGwSwR
    wp:bdbWikidata  [wd:~]  *;
-   wp:bdbReactome  [reactome:~] ?;
    wp:bdbChEBI  [chebi:~]  *;
    wp:bdbPubChem  [compound:~]  *;
    wp:bdbInChIKey  [inchikey:~]  *;
@@ -123,29 +136,18 @@ PREFIX complexportal: <https://identifiers.org/complexportal/>
    wp:bdbKeggCompound  [keggcompound:~]  *;
    wp:bdbHmdb  [hmdb:~]  *;
    wp:bdbLipidMaps  [lipidmaps:~]  *;
-   wp:bdbRhea  [rhea:~]  *;
-   wp:bdbComplexPortal  [complexportal:~]  ?;
+   wp:bdbReactome  [reactome:]  ?;
 }
 
 :GeneProduct
 {
-   rdf:type  [wp:DataNode]  ;                                  # 100.0 %
+   &:reuse_datanode ;
    rdf:type  [wp:GeneProduct]  ;
-   rdf:type  [wp:Protein]  ?;
-   rdf:type  [wp:Rna]  ?;
-   rdf:type  [wp:Complex]  ?;
-   rdf:type  [wp:Metabolite]  ?;
-   rdf:type  [wp:Pathway]  ?;
-
-   dc:identifier @:dcidentifier  ;                                       # 100.0 %
-   wp:isAbout  [pathway:~ wpio:~]  +;                                         # 100.0 %
-   dcterms:identifier  xsd:string  ;                           # 100.0 %
-   dcterms:isPartOf  [pathway:~ wpio:~]  +;                                   # 100.0 %
-   dc:source  @:sources  ;                                    # 100.0 %
-   rdfs:label  xsd:string  *;
-   foaf:page  IRI  ?;
-   dcterms:references  @:PublicationReference  *;
-   rdfs:label  rdf:langString  ?;
+   rdf:type  [wp:Protein]  ?; # TODO curate
+   rdf:type  [wp:Rna]  ?; # TODO curate
+   rdf:type  [wp:Complex]  ?; # TODO curate
+   rdf:type  [wp:Metabolite]  ?; # TODO curate
+   rdf:type  [wp:Pathway]  ?; # TODO curate
 
    wp:bdbEnsembl  [ensembl:~]  *;
    wp:bdbEntrezGene  [ncbigene:~]  *;
@@ -158,46 +160,12 @@ PREFIX complexportal: <https://identifiers.org/complexportal/>
    wp:bdbChEBI  [chebi:~]  ?
 }
 
-
-:DirectedInteraction
-{
-   rdf:type  [wp:DirectedInteraction]  ;                       # 100.0 %
-   rdf:type  [wp:Interaction]  ;                               # 100.0 %
-   rdf:type  [wp:Catalysis]  ?;
-   rdf:type  [wp:Conversion]  ?;
-   rdf:type  [wp:Inhibition]  ?;
-   rdf:type  [wp:Stimulation]  ?;
-   rdf:type  [wp:Binding]  ?;
-   rdf:type  [wp:TranscriptionTranslation]  ?;
-   rdf:type  [wp:Translocation]  ?;
-
-   wp:target  IRI  +;                                          # 100.0 %
-   dcterms:isPartOf  @:Pathway  ;                                    # 100.0 %
-   wp:isAbout  [pathway:~ wpio:~]   +;                                         # 100.0 %
-   wp:participants  IRI  +;                                    # 100.0 %
-   wp:source  IRI  +;                                          # 100.0 %
-   dcterms:references  @:PublicationReference  *;
-   dc:source  @:sources  ?;
-   dcterms:identifier  xsd:string  ?;
-
-   wp:bdbReactome  [reactome:~]  *;
-   wp:bdbRhea  [rhea:~]  *;
-   wp:bdbWikidata  [wd:~]  ?
-}
-
 :Rna
 {
-   rdf:type  [wp:Rna]  ;                                       # 100.0 %
-   rdf:type  [wp:DataNode]  ;
-   rdf:type  [wp:Protein]  ?;
-   rdf:type  [wp:GeneProduct]  ?;
-   wp:isAbout  IRI  +;                                         # 100.0 %
-   rdfs:label  xsd:string  +;                                  # 100.0 %
-   dc:source  xsd:string  ;                                    # 100.0 %
-   dcterms:isPartOf  IRI  +;                                   # 100.0 %
-   dcterms:identifier  xsd:string  ;                           # 100.0 %
-   foaf:page  IRI  ;                                           # 100.0 %
-   dc:identifier  IRI  ;                                       # 100.0 %
+   &:reuse_datanode ;
+   rdf:type  [wp:Rna]  ;
+   rdf:type  [wp:Protein]  ?; # TODO curate
+   rdf:type  [wp:GeneProduct]  ?; # TODO curate
    wp:bdbEnsembl [ensembl:~]*;
    wp:bdbEntrezGene  [ncbigene:~]  *;
    wp:bdbHgncSymbol  [hgncsymbol:~] ?;
@@ -211,22 +179,11 @@ PREFIX complexportal: <https://identifiers.org/complexportal/>
 
 :Interaction
 {
-   rdf:type  [wp:Interaction]  ;
-   rdf:type  [wp:DirectedInteraction]  ?;
-   rdf:type  [wp:Binding]  ?;
-   rdf:type  [wp:ComplexBinding]  ?;
-   rdf:type  [wp:Catalysis]  ?;
-   rdf:type  [wp:Conversion]  ?;
-   rdf:type  [wp:Inhibition]  ?;
-   rdf:type  [wp:Stimulation]  ?;
-   rdf:type  [wp:TranscriptionTranslation]  ?;
-   rdf:type  [wp:Translocation]  ?;
-
-   dcterms:isPartOf  @:Pathway  ;
-   dcterms:isPartOf  @:Collection  ;                                  # 100.0 %
-   wp:isAbout  IRI  +;                                         # 100.0 %
-
-   wp:participants  @:DataNode or
+   &:reuse_all
+   $:reuse_datanode (
+   $:reuse_interaction (
+        rdf:type  [wp:Interaction]  ;
+        wp:participants  @:DataNode or
                      @:Protein or
                      @:GeneProduct or
                      @:Complex or
@@ -242,7 +199,7 @@ PREFIX complexportal: <https://identifiers.org/complexportal/>
                      @:Translocation or
                      @:Inhibition  *;
 
-   wp:target @:DataNode or
+        wp:target @:DataNode or
              @:Metabolite or
              @:GeneProduct or
              @:Interaction or
@@ -258,23 +215,32 @@ PREFIX complexportal: <https://identifiers.org/complexportal/>
              @:Translocation or
              @:Inhibition *;
 
-   wp:source  @:sources  *;
-   dcterms:references  @:PublicationReference  *;
-   dc:source  xsd:string  ?;
-   dcterms:identifier  xsd:string  ?;
-   wp:bdbReactome  [reactome:~]  *;
-   wp:bdbWikidata  [wd:~]  ? ;
-   wp:bdbRhea  [rhea:~]  *;
+        wp:bdbReactome  [reactome:~]  *;
+        wp:bdbWikidata  [wd:~]  ? ;
+        wp:bdbRhea  [rhea:~]  *;
+   )
+}
 
-   dcterms:bibliographicCitation  @:PublicationReference  *;
+:DirectedInteraction
+{
+   &:reuse_interaction ;
+   rdf:type  [wp:DirectedInteraction]  ;                       # 100.0 %                             # 100.0 %
+   rdf:type  [wp:Catalysis]  ?; # TODO: curate
+   rdf:type  [wp:Conversion]  ?; # TODO: curate
+   rdf:type  [wp:Inhibition]  ?; # TODO: curate
+   rdf:type  [wp:Stimulation]  ?; # TODO: curate
+   rdf:type  [wp:Binding]  ?; # TODO: curate
+   rdf:type  [wp:TranscriptionTranslation]  ?; # TODO: curate
+   rdf:type  [wp:Translocation]  ?; # TODO: curate
+
 }
 
 :Binding
 {
-   rdf:type  [wp:Interaction]  ;                               # 100.0 %
+                              # 100.0 %
    rdf:type  [wp:Binding]  ;
-   rdf:type  [wp:ComplexBinding]  ?;
-   rdf:type  [wp:DirectedInteraction]  ?;
+   rdf:type  [wp:ComplexBinding]  ?; # TODO: curate
+   rdf:type  [wp:DirectedInteraction]  ?; # TODO: curate
 
    wp:participants  @:DataNode or                                    # 100.0 %
              @:Complex or
@@ -289,9 +255,6 @@ PREFIX complexportal: <https://identifiers.org/complexportal/>
              @:Binding or
              @:Stimulation or
              @:Inhibition +;
-
-   dcterms:isPartOf  IRI  ;                                    # 100.0 %
-   wp:isAbout  IRI  +;                                         # 100.0 %
 
    wp:target  @:DataNode or
               @:GeneProduct or
@@ -314,11 +277,6 @@ PREFIX complexportal: <https://identifiers.org/complexportal/>
               @:Rna or
               @:Complex or
               @:Pathway ?;
-
-   dcterms:references  @:PublicationReference  *;
-   dcterms:bibliographicCitation  @:PublicationReference  *;
-   dc:source  xsd:string  ?;
-   dcterms:identifier  xsd:string  ?
 }
 
 
@@ -333,46 +291,7 @@ PREFIX complexportal: <https://identifiers.org/complexportal/>
 }
 
 
-:Pathway
-{
-   rdf:type  [wp:Pathway]  ;
-   rdf:type  [skos:Collection]  ?;
-   rdf:type  [wp:DataNode]  ?;
-   rdf:type  [wp:GeneProduct]  ?;
 
-   dc:source  xsd:string  ;                                    # 100.0 %
-   dcterms:identifier  xsd:string  ;                           # 100.0 %
-   wp:isAbout  IRI  +;                                         # 100.0 %
-
-   dc:identifier  @:Pathway or @:DataNode or @:GeneProduct ;                                       # 100.0 %
-   foaf:page  IRI  ;                                           # 100.0 %
-               # 74.78882391163093 % obj: skos:Collection. Cardinality: {1}
-   wp:organismName  xsd:string  ?;
-   wp:ontologyTag  IRI  *;
-   dc:title  rdf:langString  ?;
-   wp:organism  IRI  ?;
-   wp:pathwayOntologyTag  [obo:~]  *;
-   dcterms:description  xsd:string  *;
-   cito:cites  @:PublicationReference  *;
-   dcterms:references  @:PublicationReference  *;
-
-   dcterms:isPartOf  IRI  *;
-    rdfs:label  xsd:string  *;
-
-   dc:creator  @:Person  *;
-
-   wp:diseaseOntologyTag  [obo:~]  *;
-
-   pav:hasVersion  IRI  ?;
-   wp:cellTypeOntologyTag  [obo:~]  *;
-
-   dcterms:description  rdf:langString  ?;
-
-
-   wp:bdbEnsembl [ensembl:~]?;
-   wp:bdbUniprot  [uniprot:~]  *;
-   wp:bdbEntrezGene  [ncbigene:~]  ?
-}
 
 
 :Inhibition

@@ -1,0 +1,2 @@
+PATHWAY=`xml sel -N xmlns="http://www.sbml.org/sbml/level2/version4" -t -m '//xmlns:model/@metaid' --var pathway="."  -v '$pathway' -nl  ../submaps/apoptosis.xml`
+xml sel -N xmlns="http://www.sbml.org/sbml/level2/version4" -t -m '//xmlns:model/@metaid' --var pathway="."  -t -m "//xmlns:reaction/@metaid" -v "concat('cmr:', ., ' rdf:type wp:Interaction .')" -n -v "concat('cmr:', ., ' wp:isPartOf cmm:','$PATHWAY',' .')" -n ../submaps/apoptosis.xml

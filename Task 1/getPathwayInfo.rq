@@ -1,0 +1,16 @@
+# https://webservice.wikipathways.org/ui/#!/All_functions/get_getPathwayInfo
+
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX pav: <http://purl.org/pav/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
+SELECT ?wpid ?url ?name ?species ?revision  WHERE {
+ VALUES ?wpid {"WP546"}
+        ?pathway dcterms:identifier ?wpid ;
+            dc:title ?name ;
+            foaf:page ?url ; # does not render the URL used at WP website but gets the same results
+            wp:organismName   ?species .
+        BIND(REPLACE(str(?pathway), "https://identifiers.org/wikipathways/WP[0-9]+_", "") AS ?revision)
+}
+

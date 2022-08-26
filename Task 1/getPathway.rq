@@ -1,0 +1,10 @@
+# getPathway: https://webservice.wikipathways.org/ui/#!/All_functions/get_getPathway
+
+# The original api call fetches the GPML format of the pathway. This is not possible with SPARQL
+# curl or wget would be a better approach here
+
+# A describe query however could receive all related triples of that pathway
+
+PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
+DESCRIBE wp:<<wpId>>
+

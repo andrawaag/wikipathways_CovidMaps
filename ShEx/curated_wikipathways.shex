@@ -17,7 +17,6 @@ PREFIX qb: <http://purl.org/linked-data/cube#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
-PREFIX sh: <http://www.w3.org/ns/shacl#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX sosa: <http://www.w3.org/ns/sosa/>
 PREFIX ssn: <http://www.w3.org/ns/ssn/>
@@ -38,7 +37,6 @@ PREFIX ncbigene: <https://identifiers.org/ncbigene/>
 PREFIX pubmed: <http://www.ncbi.nlm.nih.gov/pubmed/>
 PREFIX efo: <http://www.ebi.ac.uk/efo/>
 PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
-
 PREFIX pathway: <http://rdf.wikipathways.org/Pathway/>
 PREFIX wpio: <https://identifiers.org/wikipathways/>
 PREFIX wd: <http://www.wikidata.org/entity/>

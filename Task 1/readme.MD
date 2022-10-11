@@ -89,10 +89,13 @@ Not supported
 ### findPathwaysByText
 
 GET /findPathwaysByXref
-GET /removeCurationTag
+### removeCurationTag
+#### comment
+Not supported
 ### saveCurationTag
 #### comment
 Not supported
+
 GET /getCurationTags
 GET /getCurationTagsByName
 GET /getCurationTagHistory

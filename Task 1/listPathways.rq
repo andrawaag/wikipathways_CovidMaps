@@ -1,11 +1,17 @@
+# listPathways: https://webservice.wikipathways.org/ui/#!/All_functions/get_listPathways
+
+PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dce: <http://purl.org/dc/elements/1.1/>
 
-SELECT DISTINCT ?property
+SELECT DISTINCT ?wpuri ?title ?wpid
 WHERE {
     VALUES ?organism {"Homo sapiens"}
     SERVICE <http://sparql.wikipathways.org/sparql> {
         ?pathway wp:organismName ?organism ;
-                 ?property ?o .
+                 dct:identifier ?wpid ;
+                 dce:identifier ?wpuri ;
+                 dce:title ?title .
     }
 }

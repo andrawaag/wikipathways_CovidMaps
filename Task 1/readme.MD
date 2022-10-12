@@ -15,6 +15,8 @@ WHERE {
 ```
 [Try me...](https://w.wiki/5oau)
 
+----
+
 ### listPathways
 source: [listPathways](https://webservice.wikipathways.org/ui/#!/All_functions/get_listPathways)
 ```sparql
@@ -36,10 +38,14 @@ WHERE {
 ```
 [Try me...](https://w.wiki/5oay)
 
+----
+
 ### getPathway
 source: [getPathway](https://webservice.wikipathways.org/ui/#!/All_functions/get_getPathway)
 #### Not optimal 
 This API returns the pathways in a select set of output formats. Downloading these renderings is not optimal with SPARQL
+
+----
 
 ### getPathwayInfo
 source: [getPathwayInfo](https://webservice.wikipathways.org/ui/#!/All_functions/get_getPathwayInfo)
@@ -63,35 +69,58 @@ WHERE {
 ```
 [Try me...](https://w.wiki/5ocb)
 
+----
+
 ### getPathwayHistory
 source: [getPathwayHistory](https://webservice.wikipathways.org/ui/#!/All_functions/get_getPathwayHistory)
 #### comment
 The SPARQL endpoint only has last released version. History is not part of the endpoint.
+
+----
+
 ### getRecentChanges
 source: [getRecentChanges](https://webservice.wikipathways.org/ui/#!/All_functions/get_getRecentChanges)
 #### comment
 The SPARQL endpoint only has last released version. Recent changes are not part of the endpoint.
 
+----
+
 ### login
 #### comment
 Not supported
 
+----
+
 ### getPathwayAs
 #### comment
 Not supported
+
+----
+
 ###updatePathway
 #### comment
 Not supported
+
+----
+
 ### createPathway
 #### comment
 Not supported
 
+----
+
 ### findPathwaysByText
 
 GET /findPathwaysByXref
+
+----
+
 ### removeCurationTag
 #### comment
 Not supported
+
+----
+
 ### saveCurationTag
 #### comment
 Not supported
@@ -103,12 +132,21 @@ GET /getColoredPathway
 GET /findInteractions
 GET /getXrefList
 GET /findPathwaysByLiterature
+
+----
+
 ### saveOntologyTag
 #### comment
 Not supported
+
+----
+
 ### removeOntologyTag
 #### comment
 Not supported
+
+----
+
 ### getOntologyTermsByPathway
 source: [getOntologyTermsByPathway](https://webservice.wikipathways.org/ui/#!/All_functions/get_getOntologyTermsByPathway)
 ```sparql
@@ -130,6 +168,8 @@ WHERE {
 }
 ```
 [Try me...](https://w.wiki/5od$)
+
+----
 
 ### getPathwaysByOntologyTerm
 source: [getPathwaysByOntologyTerm](https://webservice.wikipathways.org/ui/#!/All_functions/get_getPathwaysByOntologyTerm)
@@ -154,6 +194,8 @@ WHERE {
 ```
 [Try me...](https://w.wiki/5oe5)
 
+----
+
 ### getPathwaysByParentOntologyTerm
 source: [getPathwaysByParentOntologyTerm](https://webservice.wikipathways.org/ui/#!/All_functions/get_getPathwaysByParentOntologyTerm)
 
@@ -177,6 +219,8 @@ WHERE {
 ```
 [Try me...](https://w.wiki/5ofd)
 
+----
+
 ### getUserByOrcid
 
 ```sparql
@@ -195,6 +239,9 @@ WHERE {
 }
 ```
 [Try me...](https://w.wiki/5oeT)
+
+----
+
 ### getPathwaysByOrcid
 #### comment
 extra

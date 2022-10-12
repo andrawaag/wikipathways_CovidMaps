@@ -111,8 +111,6 @@ Not supported
 
 ### findPathwaysByText
 
-GET /findPathwaysByXref
-
 ----
 
 ### removeCurationTag
@@ -125,13 +123,20 @@ Not supported
 #### comment
 Not supported
 
-GET /getCurationTags
-GET /getCurationTagsByName
-GET /getCurationTagHistory
-GET /getColoredPathway
-GET /findInteractions
-GET /getXrefList
-GET /findPathwaysByLiterature
+### getCurationTags
+----
+### getCurationTagsByName
+----
+### getCurationTagHistory
+----
+### getColoredPathway
+----
+### findInteractions
+----
+### getXrefList
+
+----
+### findPathwaysByLiterature
 
 ----
 

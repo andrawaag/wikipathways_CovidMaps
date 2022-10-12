@@ -97,7 +97,7 @@ Not supported
 
 ----
 
-###updatePathway
+### updatePathway
 #### comment
 Not supported
 

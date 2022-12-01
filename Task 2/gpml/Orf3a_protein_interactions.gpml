@@ -1,1026 +1,1481 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Generated">
-  <Comment>1. Vidisha Singh, GenHotel Laboratory, University of Evry-Paris Saclay, Évry, France
+  <Comment>Author:
+&lt;br /&gt;
+
+Muhammed Naveez, Riga Technical University, Latvia
 &lt;br /&gt;
 
 &lt;br /&gt;
 
-2. Anna Niarakis, University of Évry Val d&apos;Essonne, Évry, France
-&lt;br /&gt;
-
-&lt;br /&gt;
-
-3. Sara Sadat Aghamiri, Institut de Recherche Saint Louis, Paris, France
-&lt;br /&gt;
-
-&lt;br /&gt;
-
-Apoptosis pathway for Covid-19 maps project is constructed by using the review paper of Fung&amp;Liu,2019,Annu rev micro (PMID=31226023).
-KEGG pathway database is used to add reactions between the elements.
-Map is constructed in the form of a cell including plasma membrane, cytoplasm in addition to extracellular space.
-Ligands are present in the extracellular space which interacts with receptors in the plasma membrane to initiate signaling cascade in the cytoplasm.
-All the map elements are named according to HGNC naming scheme.
-All map reactions are annotated with PubMed Ids, KEGG pathway Ids using MIRIAM add relation&apos;bqbiol:isDescribedby&apos;.
-MESH Id is provided for the phenotype &apos;Apoptosis&apos;.</Comment>
-  <Graphics BoardWidth="1380.0" BoardHeight="1133.625"/>
-  <DataNode TextLabel="BCL2" GraphId="sa62" Type="Protein" GroupRef="csa10">
+Description:
+Interactions of the SARS-CoV-2 Orf3a with human proteins, especially in the context of the HOPS Complex.</Comment>
+  <Graphics BoardWidth="1797.0" BoardHeight="2352.0"/>
+  <DataNode TextLabel="TLR8" GraphId="sa46" Type="Protein" GroupRef="csa9">
     <Comment></Comment>
-    <Graphics CenterX="1068.75" CenterY="247.5" Width="80.0" Height="40.0" ZOrder="63" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="BCL2" Database="HGNC"/>
-  </DataNode>
-  <DataNode TextLabel="MAPK14" GraphId="sa50" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="892.0" CenterY="795.0" Width="80.0" Height="40.0" ZOrder="57" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+    <Graphics CenterX="1592.0" CenterY="470.0" Width="80.0" Height="50.0" ZOrder="31" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffffcc"/>
 <Xref ID="" Database=""/>
   </DataNode>
-  <DataNode TextLabel="FADD" GraphId="sa46" Type="Protein" GroupRef="csa6">
+  <DataNode TextLabel="CHUK" GraphId="sa113" Type="Protein" GroupRef="csa20">
     <Comment></Comment>
-    <Graphics CenterX="880.125" CenterY="263.375" Width="80.0" Height="40.0" ZOrder="52" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="3573" Database="HGNC Accession number"/>
+    <Graphics CenterX="1262.0" CenterY="1255.5" Width="80.0" Height="40.0" ZOrder="44" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
   </DataNode>
-  <DataNode TextLabel="FADD" GraphId="sa9" Type="Protein">
+  <DataNode TextLabel="MYD88" GraphId="sa37" Type="Protein" GroupRef="csa8">
+    <Comment>HGNC ID:11850</Comment>
+    <Graphics CenterX="909.0" CenterY="181.5" Width="80.0" Height="40.0" ZOrder="87" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="TRIM30a" GraphId="sa57" Type="Protein" GroupRef="csa11">
     <Comment></Comment>
-    <Graphics CenterX="251.0" CenterY="295.0" Width="80.0" Height="40.0" ZOrder="87" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="3573" Database="HGNC Accession number"/>
+    <Graphics CenterX="1352.0" CenterY="1052.0" Width="80.0" Height="40.0" ZOrder="99" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
   </DataNode>
-  <DataNode TextLabel="CASP3" GraphId="sa17" Type="Protein">
+  <DataNode TextLabel="TAB3" GraphId="sa111" Type="Protein" GroupRef="csa19">
+    <Comment></Comment>
+    <Graphics CenterX="1109.0" CenterY="879.5" Width="80.0" Height="40.0" ZOrder="42" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="TRIM27" GraphId="sa62" Type="Protein" GroupRef="csa13">
+    <Comment></Comment>
+    <Graphics CenterX="1145.0" CenterY="1469.0" Width="80.0" Height="40.0" ZOrder="102" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="HMOX1" GraphId="sa2" Type="Protein" GroupRef="csa2">
+    <Comment>https://chemrxiv.org/articles/COVID-19_Disease_ORF8_and_Surface_Glycoprotein_Inhibit_Heme_Metabolism_by_Binding_to_Porphyrin/11938173
+COVID-19: Attacks the 1-Beta Chain of Hemoglobin and
+Captures the Porphyrin to Inhibit Human Heme Metabolism</Comment>
+    <Graphics CenterX="358.0" CenterY="1000.0" Width="80.0" Height="40.0" ZOrder="75" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="IKBKB" GraphId="sa122" Type="Protein" GroupRef="csa22">
+    <Comment></Comment>
+    <Graphics CenterX="465.17647058823536" CenterY="335.0882352941177" Width="80.0" Height="40.0" ZOrder="55" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="E" GraphId="sa90" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="766.0" CenterY="1805.0" Width="80.0" Height="40.0" ZOrder="134" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffcccc"/>
+<Xref ID="1796318600" Database="NCBI Protein"/>
+  </DataNode>
+  <DataNode TextLabel="TLR3" GraphId="sa45" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="1406.0" CenterY="249.0" Width="80.0" Height="50.0" ZOrder="30" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffffcc"/>
+<Xref ID="11849" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="CHUK" GraphId="sa73" Type="Protein" GroupRef="csa12">
+    <Comment></Comment>
+    <Graphics CenterX="1261.0" CenterY="1571.0" Width="80.0" Height="40.0" ZOrder="121" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="IRF6" GraphId="sa35" Type="Protein" GroupRef="csa8">
+    <Comment>HGNC ID:6121</Comment>
+    <Graphics CenterX="907.0" CenterY="76.5" Width="80.0" Height="40.0" ZOrder="86" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="IL1b" GraphId="sa127" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="633.0" CenterY="1889.0" Width="80.0" Height="40.0" ZOrder="57" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="5992" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="CASP1" GraphId="sa82" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="708.0" CenterY="1449.0" Width="80.0" Height="40.0" ZOrder="128" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="1499" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="TLR4" GraphId="sa142" Type="Protein">
+    <Comment>HGNC ID :11850</Comment>
+    <Graphics CenterX="625.0" CenterY="184.0" Width="80.0" Height="50.0" ZOrder="26" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="VPS11" GraphId="sa9" Type="Protein" GroupRef="csa2">
+    <Comment>PMID:25375324</Comment>
+    <Graphics CenterX="269.0" CenterY="1050.0" Width="80.0" Height="40.0" ZOrder="133" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="TRIM21" GraphId="sa63" Type="Protein" GroupRef="csa13">
+    <Comment></Comment>
+    <Graphics CenterX="1146.0" CenterY="1518.0" Width="80.0" Height="40.0" ZOrder="103" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="IKBKB" GraphId="sa21" Type="Protein" GroupRef="csa4">
+    <Comment></Comment>
+    <Graphics CenterX="470.0" CenterY="699.0" Width="80.0" Height="40.0" ZOrder="77" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="TRIM9" GraphId="sa74" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="1452.0" CenterY="1751.0" Width="80.0" Height="40.0" ZOrder="122" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="16288" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="sa33" Type="Protein" GroupRef="csa7">
+    <Comment>P105</Comment>
+    <Graphics CenterX="709.0" CenterY="2125.0" Width="80.0" Height="40.0" ZOrder="84" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="IKBKG" GraphId="sa123" Type="Protein" GroupRef="csa22">
+    <Comment></Comment>
+    <Graphics CenterX="465.17647058823536" CenterY="288.0882352941177" Width="80.0" Height="40.0" ZOrder="56" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="PYCARD" GraphId="sa14" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="915.0" CenterY="1189.0" Width="92.0" Height="52.0" ZOrder="22" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="IKBKG" GraphId="sa71" Type="Protein" GroupRef="csa12">
+    <Comment></Comment>
+    <Graphics CenterX="1260.0" CenterY="1468.0" Width="80.0" Height="40.0" ZOrder="119" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="TRAF6" GraphId="sa135" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="965.6666666666667" CenterY="333.00000000000006" Width="80.0" Height="40.0" ZOrder="65" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="12036" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="MYD88" GraphId="sa49" Type="Protein">
+    <Comment>HGNC ID :7562</Comment>
+    <Graphics CenterX="1130.0" CenterY="745.0" Width="80.0" Height="40.0" ZOrder="91" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="7562" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="SERPINF2" GraphId="sa86" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="884.0" CenterY="1719.0" Width="80.0" Height="40.0" ZOrder="130" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="ALG5" GraphId="sa4" Type="Protein" GroupRef="csa2">
+    <Comment>PMID:17715238</Comment>
+    <Graphics CenterX="269.0" CenterY="1000.0" Width="80.0" Height="40.0" ZOrder="89" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="E" GraphId="sa83" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="527.0" CenterY="1371.0" Width="80.0" Height="40.0" ZOrder="129" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffcccc"/>
+<Xref ID="1796318600" Database="NCBI Protein"/>
+  </DataNode>
+  <DataNode TextLabel="ARL6IP6" GraphId="sa5" Type="Protein" GroupRef="csa2">
+    <Comment>PMID:15316659</Comment>
+    <Graphics CenterX="357.0" CenterY="1048.0" Width="80.0" Height="40.0" ZOrder="92" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="S" GraphId="sa34" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="512.0" CenterY="1140.0" Width="80.0" Height="40.0" ZOrder="85" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffcccc"/>
+<Xref ID="P0DTC2" Database="Uniprot-TrEMBL"/>
+  </DataNode>
+  <DataNode TextLabel="NLRP3" GraphId="sa134" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="791.0" CenterY="1011.0" Width="80.0" Height="40.0" ZOrder="64" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="16400" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="NFKB1" GraphId="sa31" Type="Protein" GroupRef="csa6">
+    <Comment>HGNC ID:7794
+P105</Comment>
+    <Graphics CenterX="349.0" CenterY="1356.0" Width="80.0" Height="40.0" ZOrder="82" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="IL1b" GraphId="sa92" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="794.0" CenterY="1889.0" Width="80.0" Height="40.0" ZOrder="135" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="5992" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="SERPINF2" GraphId="sa87" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="885.0" CenterY="2020.0" Width="80.0" Height="40.0" ZOrder="131" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="9075" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="NFKBIA" GraphId="sa65" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="1069.0" CenterY="1911.0" Width="80.0" Height="40.0" ZOrder="109" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="7797" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="IFNB1" GraphId="sa88" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="820.0" CenterY="2140.0" Width="80.0" Height="40.0" ZOrder="132" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="5434" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="IFNB1" GraphId="sa147" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="955.0" CenterY="2140.0" Width="80.0" Height="40.0" ZOrder="72" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="5434" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="TLR9" GraphId="sa47" Type="Protein" GroupRef="csa9">
+    <Comment></Comment>
+    <Graphics CenterX="1591.0" CenterY="425.0" Width="80.0" Height="50.0" ZOrder="32" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="BTRC" GraphId="sa75" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="1360.0" CenterY="1816.0" Width="80.0" Height="40.0" ZOrder="123" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="1144" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="TICAM1" GraphId="sa94" Type="Protein">
+    <Comment>TRIF</Comment>
+    <Graphics CenterX="1072.0" CenterY="333.0" Width="80.0" Height="40.0" ZOrder="137" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="18348" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="CHUK" GraphId="sa20" Type="Protein" GroupRef="csa4">
+    <Comment></Comment>
+    <Graphics CenterX="470.0" CenterY="746.0" Width="80.0" Height="40.0" ZOrder="76" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="TRIM39" GraphId="sa76" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="1305.0" CenterY="2238.0" Width="80.0" Height="40.0" ZOrder="124" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="10065" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="TRAF6" GraphId="sa101" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="965.0" CenterY="643.0" Width="80.0" Height="40.0" ZOrder="39" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="12036" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="TICAM1" GraphId="sa48" Type="Protein">
+    <Comment>TRIF</Comment>
+    <Graphics CenterX="1071.0" CenterY="550.0" Width="80.0" Height="40.0" ZOrder="90" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="18348" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="IKBKG" GraphId="sa115" Type="Protein" GroupRef="csa20">
+    <Comment></Comment>
+    <Graphics CenterX="1261.0" CenterY="1152.5" Width="80.0" Height="40.0" ZOrder="46" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="Sun2" GraphId="sa7" Type="Protein" GroupRef="csa2">
+    <Comment></Comment>
+    <Graphics CenterX="313.0" CenterY="1142.0" Width="80.0" Height="40.0" ZOrder="117" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="BTRC" GraphId="sa137" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="1542.6666666666667" CenterY="1815.0" Width="80.0" Height="40.0" ZOrder="66" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="1144" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="NFKBIA" GraphId="sa120" Type="Protein" GroupRef="csa21">
+    <Comment></Comment>
+    <Graphics CenterX="1190.1764705882354" CenterY="2073.4117647058824" Width="80.0" Height="40.0" ZOrder="49" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="TRIM38" GraphId="sa58" Type="Protein" GroupRef="csa11">
+    <Comment></Comment>
+    <Graphics CenterX="1349.0" CenterY="1002.0" Width="80.0" Height="40.0" ZOrder="100" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="TRIM14" GraphId="sa68" Type="Protein" GroupRef="csa15">
+    <Comment></Comment>
+    <Graphics CenterX="1377.0" CenterY="1466.0" Width="80.0" Height="40.0" ZOrder="115" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="CACTIN" GraphId="sa138" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="1084.5" CenterY="2161.0" Width="80.0" Height="40.0" ZOrder="67" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="29938" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="TLR8" GraphId="sa98" Type="Protein" GroupRef="csa17">
+    <Comment></Comment>
+    <Graphics CenterX="1331.0" CenterY="677.0" Width="80.0" Height="50.0" ZOrder="35" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="TRIM39" GraphId="sa139" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="1160.5" CenterY="2240.0" Width="80.0" Height="40.0" ZOrder="68" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="10065" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="TRIM23" GraphId="sa70" Type="Protein">
+    <Comment>PMID TRIM 23  20724660</Comment>
+    <Graphics CenterX="1039.6666666666667" CenterY="696.6666666666667" Width="80.0" Height="40.0" ZOrder="118" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="660" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="CACTIN" GraphId="sa77" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="1236.0" CenterY="2162.0" Width="80.0" Height="40.0" ZOrder="125" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="29938" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="TAB3" GraphId="sa54" Type="Protein" GroupRef="csa10">
+    <Comment></Comment>
+    <Graphics CenterX="1112.0" CenterY="1168.0" Width="80.0" Height="40.0" ZOrder="96" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="NLRP3" GraphId="sa10" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="791.0" CenterY="1227.0" Width="92.0" Height="52.0" ZOrder="21" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="TLR4" GraphId="sa36" Type="Protein" GroupRef="csa8">
+    <Comment>HGNC ID :11850</Comment>
+    <Graphics CenterX="909.0" CenterY="130.5" Width="80.0" Height="50.0" ZOrder="28" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="ORF8b" GraphId="sa132" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="705.0" CenterY="1154.0" Width="80.0" Height="40.0" ZOrder="63" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffcccc"/>
+<Xref ID="BCD58760" Database="NCBI Protein"/>
+  </DataNode>
+  <DataNode TextLabel="IRF6" GraphId="sa17" Type="Protein" GroupRef="csa3">
+    <Comment>HGNC ID 6121</Comment>
+    <Graphics CenterX="467.5" CenterY="53.0" Width="80.0" Height="40.0" ZOrder="73" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="TRAF3" GraphId="sa11" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="666.0" CenterY="924.0" Width="80.0" Height="40.0" ZOrder="40" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="12033" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="TRIM38" GraphId="sa52" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="878.0" CenterY="743.0" Width="80.0" Height="40.0" ZOrder="94" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="10059" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="PYCARD" GraphId="sa131" Type="Protein">
     <Comment></Comment>
 <BiopaxRef>ann1</BiopaxRef>
-    <Graphics CenterX="361.125" CenterY="651.375" Width="80.0" Height="40.0" ZOrder="24" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+    <Graphics CenterX="913.0" CenterY="1001.5" Width="80.0" Height="40.0" ZOrder="59" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
 <Xref ID="" Database=""/>
   </DataNode>
-  <DataNode TextLabel="BCL2L11" GraphId="sa57" Type="Protein" GroupRef="csa9">
+  <DataNode TextLabel="TLR3" GraphId="sa93" Type="Protein">
     <Comment></Comment>
-    <Graphics CenterX="1219.0" CenterY="440.0" Width="80.0" Height="40.0" ZOrder="59" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="NM_001204106" Database="RefSeq"/>
+    <Graphics CenterX="1184.0" CenterY="362.0" Width="80.0" Height="50.0" ZOrder="33" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffffcc"/>
+<Xref ID="11849" Database="HGNC Accession number"/>
   </DataNode>
-  <DataNode TextLabel="M" GraphId="sa42" Type="Protein">
+  <DataNode TextLabel="Orf3a" GraphId="sa1" Type="Protein">
     <Comment></Comment>
+    <Graphics CenterX="576.0" CenterY="1002.0" Width="80.0" Height="40.0" ZOrder="37" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffcccc"/>
+<Xref ID="P0DTC3" Database="Uniprot-TrEMBL"/>
+  </DataNode>
+  <DataNode TextLabel="RELA" GraphId="sa30" Type="Protein" GroupRef="csa6">
+    <Comment>HGNC ID:9955
+P65</Comment>
+    <Graphics CenterX="347.0" CenterY="1308.0" Width="80.0" Height="40.0" ZOrder="81" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="ssRNA" GraphId="sa42" Type="Rna">
+    <Comment></Comment>
+    <Graphics CenterX="1417.0" CenterY="479.0" Width="90.0" Height="25.0" ZOrder="140" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffcccc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="TNFRSF1A" GraphId="sa18" Type="Protein" GroupRef="csa3">
+    <Comment>HGNC ID. 11916</Comment>
+    <Graphics CenterX="470.5" CenterY="105.0" Width="80.0" Height="50.0" ZOrder="27" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="TRIM38" GraphId="sa50" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="1017.0" CenterY="394.0" Width="80.0" Height="40.0" ZOrder="93" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="10059" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="CLCC1" GraphId="sa6" Type="Protein" GroupRef="csa2">
+    <Comment></Comment>
+    <Graphics CenterX="356.0" CenterY="1094.0" Width="80.0" Height="40.0" ZOrder="101" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="TLR7" GraphId="sa43" Type="Protein" GroupRef="csa9">
+    <Comment></Comment>
+    <Graphics CenterX="1592.0" CenterY="516.0" Width="80.0" Height="50.0" ZOrder="29" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="RELA" GraphId="sa32" Type="Protein" GroupRef="csa7">
+    <Comment>P65</Comment>
+    <Graphics CenterX="709.0" CenterY="2078.0" Width="80.0" Height="40.0" ZOrder="83" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="IKBKB" GraphId="sa114" Type="Protein" GroupRef="csa20">
+    <Comment></Comment>
+    <Graphics CenterX="1262.0" CenterY="1202.5" Width="80.0" Height="40.0" ZOrder="45" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="TRIM59" GraphId="sa96" Type="Protein">
+    <Comment>HGNC ID :30834</Comment>
 <BiopaxRef>ann2</BiopaxRef>
-    <Graphics CenterX="712.0" CenterY="681.5" Width="80.0" Height="40.0" ZOrder="48" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffcccc"/>
-<Xref ID="APO40582" Database="NCBI Protein"/>
+    <Graphics CenterX="703.0" CenterY="614.0" Width="80.0" Height="40.0" ZOrder="138" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="30834" Database="HGNC Accession number"/>
   </DataNode>
-  <DataNode TextLabel="FASLG" GraphId="sa6" Type="Protein" GroupRef="csa2">
+  <DataNode TextLabel="MAP3K7" GraphId="sa55" Type="Protein" GroupRef="csa10">
     <Comment></Comment>
-    <Graphics CenterX="414.0" CenterY="114.0" Width="80.0" Height="40.0" ZOrder="62" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="FASLG" Database="HGNC"/>
-  </DataNode>
-  <DataNode TextLabel="CASP7" GraphId="sa40" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="407.125" CenterY="771.375" Width="80.0" Height="40.0" ZOrder="46" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+    <Graphics CenterX="1111.0" CenterY="1216.0" Width="80.0" Height="40.0" ZOrder="97" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
 <Xref ID="" Database=""/>
   </DataNode>
-  <DataNode TextLabel="MAPK14" GraphId="sa49" Type="Protein">
+  <DataNode TextLabel="TRAF6" GraphId="sa38" Type="Protein">
     <Comment></Comment>
-    <Graphics CenterX="680.0" CenterY="795.0" Width="80.0" Height="40.0" ZOrder="56" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="2.7.11.24" Database="Enzyme Nomenclature"/>
+    <Graphics CenterX="967.0" CenterY="847.0" Width="80.0" Height="40.0" ZOrder="88" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="12036" Database="HGNC Accession number"/>
   </DataNode>
-  <DataNode TextLabel="TNFRSF1A" GraphId="sa8" Type="Protein">
+  <DataNode TextLabel="MAP3K7" GraphId="sa112" Type="Protein" GroupRef="csa19">
     <Comment></Comment>
-    <Graphics CenterX="1040.0" CenterY="142.5" Width="80.0" Height="135.0" ZOrder="16" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffff66"/>
-<Xref ID="7132" Database="Entrez Gene"/>
-  </DataNode>
-  <DataNode TextLabel="TNF" GraphId="sa3" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="945.0" CenterY="41.0" Width="80.0" Height="40.0" ZOrder="40" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="NM_000594" Database="RefSeq"/>
-  </DataNode>
-  <DataNode TextLabel="BAD" GraphId="sa79" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="944.0" CenterY="484.0" Width="80.0" Height="40.0" ZOrder="77" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+    <Graphics CenterX="1109.0" CenterY="929.5" Width="80.0" Height="40.0" ZOrder="43" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
 <Xref ID="" Database=""/>
   </DataNode>
-  <DataNode TextLabel="FADD" GraphId="sa10" Type="Protein">
+  <DataNode TextLabel="NFKB1" GraphId="sa119" Type="Protein" GroupRef="csa21">
     <Comment></Comment>
-    <Graphics CenterX="572.0" CenterY="293.0" Width="80.0" Height="40.0" ZOrder="18" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+    <Graphics CenterX="1190.1764705882354" CenterY="2023.4117647058824" Width="80.0" Height="40.0" ZOrder="48" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
 <Xref ID="" Database=""/>
   </DataNode>
-  <DataNode TextLabel="FAS" GraphId="sa5" Type="Protein">
+  <DataNode TextLabel="double-stranded RNA" GraphId="sa41" Type="Rna">
     <Comment></Comment>
-    <Graphics CenterX="170.0" CenterY="142.5" Width="60.0" Height="135.0" ZOrder="17" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffff66"/>
-<Xref ID="11920" Database="HGNC Accession number"/>
+    <Graphics CenterX="1408.0" CenterY="422.0" Width="90.0" Height="25.0" ZOrder="139" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffcccc"/>
+<Xref ID="" Database=""/>
   </DataNode>
-  <DataNode TextLabel="BCL2L1" GraphId="sa85" Type="Protein" GroupRef="csa11">
+  <DataNode TextLabel="TAB2" GraphId="sa110" Type="Protein" GroupRef="csa19">
     <Comment></Comment>
-    <Graphics CenterX="1068.0" CenterY="581.5" Width="80.0" Height="40.0" ZOrder="84" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="NM_138578" Database="RefSeq"/>
+    <Graphics CenterX="1108.0" CenterY="829.5" Width="80.0" Height="40.0" ZOrder="41" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
   </DataNode>
-  <DataNode TextLabel="BCL2" GraphId="sa83" Type="Protein" GroupRef="csa11">
+  <DataNode TextLabel="TRIM29" GraphId="sa67" Type="Protein">
     <Comment></Comment>
-    <Graphics CenterX="1067.75" CenterY="497.0" Width="80.0" Height="40.0" ZOrder="82" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="BCL2" Database="HGNC"/>
+    <Graphics CenterX="1393.0" CenterY="1291.0" Width="80.0" Height="40.0" ZOrder="114" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="17274" Database="HGNC Accession number"/>
   </DataNode>
-  <DataNode TextLabel="Orf7a" GraphId="sa43" Type="Protein">
-    <Comment>COVID19 Disease Map</Comment>
-    <Graphics CenterX="944.0" CenterY="378.5" Width="80.0" Height="40.0" ZOrder="49" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffcccc"/>
-<Xref ID="ORF7a" Database="HGNC"/>
-  </DataNode>
-  <DataNode TextLabel="MCL1" GraphId="sa64" Type="Protein" GroupRef="csa10">
+  <DataNode TextLabel="CASP1" GraphId="sa25" Type="Protein">
     <Comment></Comment>
-    <Graphics CenterX="1069.0" CenterY="289.75" Width="80.0" Height="40.0" ZOrder="65" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="4170" Database="Entrez Gene"/>
+    <Graphics CenterX="704.0" CenterY="1737.0" Width="80.0" Height="40.0" ZOrder="79" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="1499" Database="HGNC Accession number"/>
   </DataNode>
-  <DataNode TextLabel="CASP3" GraphId="sa15" Type="Protein">
+  <DataNode TextLabel="NFKB1" GraphId="sa81" Type="Protein">
     <Comment></Comment>
-<BiopaxRef>ann1</BiopaxRef>
-    <Graphics CenterX="161.125" CenterY="651.375" Width="80.0" Height="40.0" ZOrder="23" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="NM_004346" Database="RefSeq"/>
+    <Graphics CenterX="990.0" CenterY="2060.0" Width="80.0" Height="40.0" ZOrder="127" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="7794" Database="HGNC Accession number"/>
   </DataNode>
-  <DataNode TextLabel="APAF1" GraphId="sa27" Type="Protein">
+  <DataNode TextLabel="CHUK" GraphId="sa121" Type="Protein" GroupRef="csa22">
     <Comment></Comment>
-    <Graphics CenterX="1000.0" CenterY="660.0" Width="80.0" Height="40.0" ZOrder="36" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="317" Database="Entrez Gene"/>
+    <Graphics CenterX="467.17647058823536" CenterY="381.0882352941177" Width="80.0" Height="40.0" ZOrder="54" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
   </DataNode>
-  <DataNode TextLabel="MCL1" GraphId="sa84" Type="Protein" GroupRef="csa11">
-    <Comment></Comment>
-    <Graphics CenterX="1068.0" CenterY="539.25" Width="80.0" Height="40.0" ZOrder="83" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="4170" Database="Entrez Gene"/>
+  <DataNode TextLabel="MYD88" GraphId="sa144" Type="Protein">
+    <Comment>HGNC ID :7562</Comment>
+    <Graphics CenterX="859.0" CenterY="262.0" Width="80.0" Height="40.0" ZOrder="71" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="7562" Database="HGNC Accession number"/>
   </DataNode>
-  <DataNode TextLabel="Orf3a" GraphId="sa48" Type="Protein">
+  <DataNode TextLabel="IL1A" GraphId="sa19" Type="Protein" GroupRef="csa3">
+    <Comment>HGNC ID:5991</Comment>
+    <Graphics CenterX="471.5" CenterY="158.0" Width="80.0" Height="40.0" ZOrder="74" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="TRIM23" GraphId="sa69" Type="Protein" GroupRef="csa15">
     <Comment></Comment>
+    <Graphics CenterX="1376.0" CenterY="1516.0" Width="80.0" Height="40.0" ZOrder="116" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="MYD88" GraphId="sa143" Type="Protein">
+    <Comment>HGNC ID :7562</Comment>
+    <Graphics CenterX="623.0" CenterY="263.0" Width="80.0" Height="40.0" ZOrder="70" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="7562" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="TLR9" GraphId="sa97" Type="Protein" GroupRef="csa17">
+    <Comment></Comment>
+    <Graphics CenterX="1330.0" CenterY="631.0" Width="80.0" Height="50.0" ZOrder="34" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="IRF6" GraphId="sa141" Type="Protein">
+    <Comment>HGNC ID:6121</Comment>
+    <Graphics CenterX="628.0" CenterY="126.0" Width="80.0" Height="40.0" ZOrder="69" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="NFKBIA" GraphId="sa64" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="1066.0" CenterY="1728.0" Width="80.0" Height="40.0" ZOrder="104" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="7797" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="MYD88" GraphId="sa100" Type="Protein">
+    <Comment>HGNC ID :7562</Comment>
+    <Graphics CenterX="1128.0" CenterY="613.0" Width="80.0" Height="40.0" ZOrder="38" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="7562" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="TRIM22" GraphId="sa56" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="1454.0" CenterY="1369.0" Width="80.0" Height="40.0" ZOrder="98" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="16379" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="IKBKB" GraphId="sa72" Type="Protein" GroupRef="csa12">
+    <Comment></Comment>
+    <Graphics CenterX="1261.0" CenterY="1518.0" Width="80.0" Height="40.0" ZOrder="120" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="IKBKG" GraphId="sa22" Type="Protein" GroupRef="csa4">
+    <Comment></Comment>
+    <Graphics CenterX="468.0" CenterY="653.0" Width="80.0" Height="40.0" ZOrder="78" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="TAB2" GraphId="sa53" Type="Protein" GroupRef="csa10">
+    <Comment></Comment>
+    <Graphics CenterX="1110.0" CenterY="1122.0" Width="80.0" Height="40.0" ZOrder="95" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="TLR7" GraphId="sa99" Type="Protein" GroupRef="csa17">
+    <Comment></Comment>
+    <Graphics CenterX="1331.0" CenterY="723.0" Width="80.0" Height="50.0" ZOrder="36" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+  <DataNode TextLabel="TRIM59" GraphId="sa3" Type="Protein">
+    <Comment>HGNC ID :30834</Comment>
+<BiopaxRef>ann2</BiopaxRef>
+    <Graphics CenterX="702.0" CenterY="419.0" Width="80.0" Height="40.0" ZOrder="80" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="30834" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="TRAF3" GraphId="sa116" Type="Protein">
+    <Comment></Comment>
+    <Graphics CenterX="665.7058823529412" CenterY="705.5882352941176" Width="80.0" Height="40.0" ZOrder="47" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="12033" Database="HGNC Accession number"/>
+  </DataNode>
+  <DataNode TextLabel="VPS39" GraphId="sa8" Type="Protein" GroupRef="csa2">
+    <Comment>PMID:25375324</Comment>
+    <Graphics CenterX="266.0" CenterY="1096.0" Width="80.0" Height="40.0" ZOrder="126" FontSize="12" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
+<Xref ID="" Database=""/>
+  </DataNode>
+<State GraphRef="sa127" GraphId="sa127-rs1" TextLabel="" ><Graphics RelX="-1.0" RelY="0.0" Width="15.0" Height="15.0" ShapeType="Oval" />
+<Xref ID="" Database=""/>
+</State>
+<State GraphRef="sa14" GraphId="sa14-rs1" TextLabel="Ub" ><Graphics RelX="-1.0" RelY="-0.351118760757301" Width="15.0" Height="15.0" ShapeType="Oval" />
+<Xref ID="" Database=""/>
+</State>
+<State GraphRef="sa14" GraphId="sa14-rs2" TextLabel="Ub" ><Graphics RelX="-0.9678590065942351" RelY="-0.8645571421794435" Width="15.0" Height="15.0" ShapeType="Oval" />
+<Xref ID="" Database=""/>
+</State>
+<State GraphRef="sa14" GraphId="sa14-rs3" TextLabel="Ub" ><Graphics RelX="-1.0" RelY="0.22368421052631393" Width="15.0" Height="15.0" ShapeType="Oval" />
+<Xref ID="" Database=""/>
+</State>
+<State GraphRef="sa92" GraphId="sa92-rs1" TextLabel="" ><Graphics RelX="-1.0" RelY="0.0" Width="15.0" Height="15.0" ShapeType="Oval" />
+<Xref ID="" Database=""/>
+</State>
+<State GraphRef="sa65" GraphId="sa65-rs1" TextLabel="P" ><Graphics RelX="-1.0" RelY="-0.14991181657848074" Width="15.0" Height="15.0" ShapeType="Oval" />
+<Xref ID="" Database=""/>
+</State>
+<State GraphRef="sa65" GraphId="sa65-rs2" TextLabel="Ub" ><Graphics RelX="-0.9999999999999943" RelY="-0.7472527472527191" Width="15.0" Height="15.0" ShapeType="Oval" />
+<Xref ID="" Database=""/>
+</State>
+<State GraphRef="sa65" GraphId="sa65-rs3" TextLabel="Ub" ><Graphics RelX="-1.0" RelY="0.2857142857143118" Width="15.0" Height="15.0" ShapeType="Oval" />
+<Xref ID="" Database=""/>
+</State>
+<State GraphRef="sa65" GraphId="sa65-rs4" TextLabel="Ub" ><Graphics RelX="-0.9820289855072588" RelY="0.7859420289854824" Width="15.0" Height="15.0" ShapeType="Oval" />
+<Xref ID="" Database=""/>
+</State>
+<State GraphRef="sa120" GraphId="sa120-rs1" TextLabel="P" ><Graphics RelX="-0.9999999999998692" RelY="-0.14991181657840114" Width="15.0" Height="15.0" ShapeType="Oval" />
+<Xref ID="" Database=""/>
+</State>
+<State GraphRef="sa120" GraphId="sa120-rs2" TextLabel="Ub" ><Graphics RelX="-0.9999999999998636" RelY="-0.7472527472526054" Width="15.0" Height="15.0" ShapeType="Oval" />
+<Xref ID="" Database=""/>
+</State>
+<State GraphRef="sa120" GraphId="sa120-rs3" TextLabel="Ub" ><Graphics RelX="-0.9999999999998636" RelY="0.28571428571426627" Width="15.0" Height="15.0" ShapeType="Oval" />
+<Xref ID="" Database=""/>
+</State>
+<State GraphRef="sa120" GraphId="sa120-rs4" TextLabel="Ub" ><Graphics RelX="-0.9820289855079523" RelY="0.7859420289860055" Width="15.0" Height="15.0" ShapeType="Oval" />
+<Xref ID="" Database=""/>
+</State>
+<State GraphRef="sa131" GraphId="sa131-rs1" TextLabel="Ub" ><Graphics RelX="-1.0" RelY="-0.3511187607573276" Width="15.0" Height="15.0" ShapeType="Oval" />
+<Xref ID="" Database=""/>
+</State>
+<State GraphRef="sa131" GraphId="sa131-rs2" TextLabel="Ub" ><Graphics RelX="-0.9504824063564143" RelY="-0.8490351872871656" Width="15.0" Height="15.0" ShapeType="Oval" />
+<Xref ID="" Database=""/>
+</State>
+<State GraphRef="sa131" GraphId="sa131-rs3" TextLabel="Ub" ><Graphics RelX="-0.9999999999999971" RelY="0.22368421052634635" Width="15.0" Height="15.0" ShapeType="Oval" />
+<Xref ID="" Database=""/>
+</State>
+<State GraphRef="sa64" GraphId="sa64-rs1" TextLabel="" ><Graphics RelX="-1.0000000000000058" RelY="-0.14991181657852626" Width="15.0" Height="15.0" ShapeType="Oval" />
+<Xref ID="" Database=""/>
+</State>
+<State GraphRef="sa64" GraphId="sa64-rs2" TextLabel="" ><Graphics RelX="-1.0" RelY="-0.7472527472527531" Width="15.0" Height="15.0" ShapeType="Oval" />
+<Xref ID="" Database=""/>
+</State>
+<State GraphRef="sa64" GraphId="sa64-rs3" TextLabel="" ><Graphics RelX="-1.0" RelY="0.2857142857143231" Width="15.0" Height="15.0" ShapeType="Oval" />
+<Xref ID="" Database=""/>
+</State>
+<State GraphRef="sa64" GraphId="sa64-rs4" TextLabel="" ><Graphics RelX="-0.9820289855072588" RelY="0.7859420289854939" Width="15.0" Height="15.0" ShapeType="Oval" />
+<Xref ID="" Database=""/>
+</State>
+  <Interaction GraphId="re111">
+  <Comment>VPS11 PMID:25375324
+VPS39 PMID:25375324
+ARL6IP6 PMID:15316659
+HMOX1 PMID:19590927</Comment>
 <BiopaxRef>ann3</BiopaxRef>
-<BiopaxRef>ann1</BiopaxRef>
-    <Graphics CenterX="786.0" CenterY="855.0" Width="80.0" Height="40.0" ZOrder="55" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffcccc"/>
-<Xref ID="P59637" Database="Uniprot-TrEMBL"/>
-  </DataNode>
-  <DataNode TextLabel="TRADD" GraphId="sa45" Type="Protein" GroupRef="csa6">
-    <Comment></Comment>
-    <Graphics CenterX="880.125" CenterY="307.375" Width="80.0" Height="40.0" ZOrder="51" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="8717" Database="Entrez Gene"/>
-  </DataNode>
-  <DataNode TextLabel="Orf9b" GraphId="sa77" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="290.0" CenterY="1050.0" Width="80.0" Height="40.0" ZOrder="75" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffcccc"/>
-<Xref ID="1489679" Database="Entrez Gene"/>
-  </DataNode>
-  <DataNode TextLabel="CASP7" GraphId="sa39" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="161.125" CenterY="771.375" Width="80.0" Height="40.0" ZOrder="45" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="1508" Database="HGNC Accession number"/>
-  </DataNode>
-  <DataNode TextLabel="BAX" GraphId="sa31" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="1180.0" CenterY="1050.0" Width="80.0" Height="40.0" ZOrder="42" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="" Database=""/>
-  </DataNode>
-  <DataNode TextLabel="Orf3b" GraphId="sa72" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="290.0" CenterY="915.0" Width="80.0" Height="40.0" ZOrder="70" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffcccc"/>
-<Xref ID="P59633" Database="Uniprot-TrEMBL"/>
-  </DataNode>
-  <DataNode TextLabel="APAF1" GraphId="sa38" Type="Protein" GroupRef="csa5">
-    <Comment></Comment>
-    <Graphics CenterX="557.5" CenterY="763.0" Width="80.0" Height="40.0" ZOrder="44" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="317" Database="Entrez Gene"/>
-  </DataNode>
-  <DataNode TextLabel="Orf8a" GraphId="sa73" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="290.0" CenterY="960.0" Width="80.0" Height="40.0" ZOrder="71" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffcccc"/>
-<Xref ID="Q7TFA0" Database="Uniprot-TrEMBL"/>
-  </DataNode>
-  <DataNode TextLabel="CASP9" GraphId="sa19" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="509.125" CenterY="531.375" Width="80.0" Height="40.0" ZOrder="27" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="" Database=""/>
-  </DataNode>
-  <DataNode TextLabel="CYCS" GraphId="sa25" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="1010.0" CenterY="760.0" Width="80.0" Height="40.0" ZOrder="34" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="19986" Database="HGNC Accession number"/>
-  </DataNode>
-  <DataNode TextLabel="TRADD" GraphId="sa44" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="689.125" CenterY="246.375" Width="80.0" Height="40.0" ZOrder="50" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="8717" Database="Entrez Gene"/>
-  </DataNode>
-  <DataNode TextLabel="CASP9" GraphId="sa67" Type="Protein" GroupRef="csa5">
-    <Comment></Comment>
-    <Graphics CenterX="557.5" CenterY="807.0" Width="80.0" Height="40.0" ZOrder="66" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="CASP9" Database="HGNC"/>
-  </DataNode>
-  <DataNode TextLabel="FASLG" GraphId="sa2" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="253.0" CenterY="41.0" Width="80.0" Height="40.0" ZOrder="29" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="FASLG" Database="HGNC"/>
-  </DataNode>
-  <DataNode TextLabel="BAD" GraphId="sa82" Type="Protein" GroupRef="csa3">
-    <Comment></Comment>
-    <Graphics CenterX="1217.5" CenterY="639.0" Width="80.0" Height="40.0" ZOrder="81" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="NM_032989" Database="RefSeq"/>
-  </DataNode>
-  <DataNode TextLabel="CASP9" GraphId="sa18" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="161.125" CenterY="531.375" Width="80.0" Height="40.0" ZOrder="26" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="" Database=""/>
-  </DataNode>
-  <DataNode TextLabel="BCL2L1" GraphId="sa63" Type="Protein" GroupRef="csa10">
-    <Comment></Comment>
-    <Graphics CenterX="1069.0" CenterY="332.0" Width="80.0" Height="40.0" ZOrder="64" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="NM_138578" Database="RefSeq"/>
-  </DataNode>
-  <DataNode TextLabel="BCL2L11" GraphId="sa80" Type="Protein" GroupRef="csa3">
-    <Comment></Comment>
-    <Graphics CenterX="1217.5" CenterY="724.0" Width="80.0" Height="40.0" ZOrder="79" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="NM_001204106" Database="RefSeq"/>
-  </DataNode>
-  <DataNode TextLabel="BAD" GraphId="sa58" Type="Protein" GroupRef="csa9">
-    <Comment></Comment>
-    <Graphics CenterX="1219.0" CenterY="355.0" Width="80.0" Height="40.0" ZOrder="60" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="NM_032989" Database="RefSeq"/>
-  </DataNode>
-  <DataNode TextLabel="TNFRSF1A" GraphId="sa91" Type="Protein" GroupRef="csa1">
-    <Comment></Comment>
-    <Graphics CenterX="760.0" CenterY="156.0" Width="80.0" Height="40.0" ZOrder="89" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffff66"/>
-<Xref ID="" Database=""/>
-  </DataNode>
-  <DataNode TextLabel="BAX" GraphId="sa30" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="960.0" CenterY="1050.0" Width="80.0" Height="40.0" ZOrder="41" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="NM_138763" Database="RefSeq"/>
-  </DataNode>
-  <DataNode TextLabel="CASP8" GraphId="sa13" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="161.125" CenterY="441.375" Width="80.0" Height="40.0" ZOrder="20" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="" Database=""/>
-  </DataNode>
-  <DataNode TextLabel="S" GraphId="sa76" Type="Protein">
-    <Comment></Comment>
 <BiopaxRef>ann4</BiopaxRef>
 <BiopaxRef>ann5</BiopaxRef>
 <BiopaxRef>ann6</BiopaxRef>
-<BiopaxRef>ann7</BiopaxRef>
-    <Graphics CenterX="290.0" CenterY="825.0" Width="80.0" Height="40.0" ZOrder="74" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffcccc"/>
-<Xref ID="1489668" Database="Entrez Gene"/>
-  </DataNode>
-  <DataNode TextLabel="AKT1" GraphId="sa28" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="610.0" CenterY="615.0" Width="80.0" Height="40.0" ZOrder="37" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="207" Database="Entrez Gene"/>
-  </DataNode>
-  <DataNode TextLabel="BAD" GraphId="sa78" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="682.125" CenterY="486.0" Width="80.0" Height="40.0" ZOrder="76" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="NM_032989" Database="RefSeq"/>
-  </DataNode>
-  <DataNode TextLabel="TNF" GraphId="sa7" Type="Protein" GroupRef="csa1">
-    <Comment></Comment>
-    <Graphics CenterX="761.0" CenterY="112.0" Width="80.0" Height="40.0" ZOrder="69" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="NM_000594" Database="RefSeq"/>
-  </DataNode>
-  <DataNode TextLabel="Orf3a" GraphId="sa92" Type="Protein">
-    <Comment></Comment>
-<BiopaxRef>ann3</BiopaxRef>
-<BiopaxRef>ann1</BiopaxRef>
-    <Graphics CenterX="160.0" CenterY="360.0" Width="80.0" Height="40.0" ZOrder="90" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffcccc"/>
-<Xref ID="P59637" Database="Uniprot-TrEMBL"/>
-  </DataNode>
-  <DataNode TextLabel="BID" GraphId="sa23" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="849.125" CenterY="429.5" Width="80.0" Height="40.0" ZOrder="31" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="" Database=""/>
-  </DataNode>
-  <DataNode TextLabel="E" GraphId="sa69" Type="Protein">
-    <Comment></Comment>
-<BiopaxRef>ann8</BiopaxRef>
-<BiopaxRef>ann9</BiopaxRef>
-    <Graphics CenterX="944.0" CenterY="429.5" Width="80.0" Height="40.0" ZOrder="68" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffcccc"/>
-<Xref ID="P59637" Database="Uniprot-TrEMBL"/>
-  </DataNode>
-  <DataNode TextLabel="CASP9" GraphId="sa47" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="860.0" CenterY="675.0" Width="80.0" Height="40.0" ZOrder="53" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="CASP9" Database="HGNC"/>
-  </DataNode>
-  <DataNode TextLabel="BID" GraphId="sa89" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="940.0" CenterY="975.0" Width="80.0" Height="40.0" ZOrder="85" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="" Database=""/>
-  </DataNode>
-  <DataNode TextLabel="CYCS" GraphId="sa26" Type="Protein" GroupRef="csa5">
-    <Comment></Comment>
-    <Graphics CenterX="557.5" CenterY="719.0" Width="80.0" Height="40.0" ZOrder="35" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="19986" Database="HGNC Accession number"/>
-  </DataNode>
-  <DataNode TextLabel="N" GraphId="sa74" Type="Protein">
-    <Comment></Comment>
-<BiopaxRef>ann10</BiopaxRef>
-<BiopaxRef>ann11</BiopaxRef>
-<BiopaxRef>ann12</BiopaxRef>
-<BiopaxRef>ann13</BiopaxRef>
-<BiopaxRef>ann14</BiopaxRef>
-<BiopaxRef>ann2</BiopaxRef>
-    <Graphics CenterX="290.0" CenterY="1005.0" Width="80.0" Height="40.0" ZOrder="72" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffcccc"/>
-<Xref ID="N" Database="HGNC"/>
-  </DataNode>
-  <DataNode TextLabel="Apoptosis" GraphId="sa41" Type="Pathway">
-    <Comment></Comment>
-<BiopaxRef>ann15</BiopaxRef>
-    <Graphics CenterX="560.0" CenterY="1035.0" Width="240.0" Height="65.0" ZOrder="12" FontSize="14" Valign="Middle" Color="000000" ShapeType="Hexagon" FillColor="9999ff"/>
-<Xref ID="" Database=""/>
-  </DataNode>
-  <DataNode TextLabel="BID" GraphId="sa22" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="682.125" CenterY="429.5" Width="80.0" Height="40.0" ZOrder="30" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="BID" Database="HGNC"/>
-  </DataNode>
-  <DataNode TextLabel="CASP8" GraphId="sa14" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="361.125" CenterY="441.375" Width="80.0" Height="40.0" ZOrder="21" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="1509" Database="HGNC Accession number"/>
-  </DataNode>
-  <DataNode TextLabel="BBC3" GraphId="sa59" Type="Protein" GroupRef="csa9">
-    <Comment></Comment>
-    <Graphics CenterX="1219.0" CenterY="397.5" Width="80.0" Height="40.0" ZOrder="61" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="Q9BXH1" Database="Uniprot-TrEMBL"/>
-  </DataNode>
-  <DataNode TextLabel="FAS" GraphId="sa90" Type="Protein" GroupRef="csa2">
-    <Comment></Comment>
-    <Graphics CenterX="411.0" CenterY="154.0" Width="80.0" Height="40.0" ZOrder="88" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffff66"/>
-<Xref ID="" Database=""/>
-  </DataNode>
-  <DataNode TextLabel="CYCS" GraphId="sa24" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="1010.0" CenterY="920.0" Width="80.0" Height="40.0" ZOrder="33" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="19986" Database="HGNC Accession number"/>
-  </DataNode>
-  <DataNode TextLabel="AKT1" GraphId="sa29" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="815.0" CenterY="615.0" Width="80.0" Height="40.0" ZOrder="38" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="" Database=""/>
-  </DataNode>
-  <DataNode TextLabel="Orf6" GraphId="sa75" Type="Protein">
-    <Comment></Comment>
-    <Graphics CenterX="290.0" CenterY="870.0" Width="80.0" Height="40.0" ZOrder="73" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ffcccc"/>
-<Xref ID="P59634" Database="Uniprot-TrEMBL"/>
-  </DataNode>
-  <DataNode TextLabel="BBC3" GraphId="sa81" Type="Protein" GroupRef="csa3">
-    <Comment></Comment>
-    <Graphics CenterX="1217.5" CenterY="681.5" Width="80.0" Height="40.0" ZOrder="80" FontSize="14" Valign="Middle" Color="000000" ShapeType="Rectangle" FillColor="ccffcc"/>
-<Xref ID="Q9BXH1" Database="Uniprot-TrEMBL"/>
-  </DataNode>
-  <Interaction GraphId="re14">
-  <Comment></Comment>
-<BiopaxRef>ann15</BiopaxRef>
-    <Graphics ConnectorType="Segmented" ZOrder="94" Color="000000" LineThickness="3.0">
-      <Point X="407.1994580636414" Y="791.375" GraphRef="sa40"/>
-      <Point X="407.5046709514503" Y="873.3574940060041"/>
-      <Point X="545.9467021269451" Y="872.0869235745931"/>
-      <Point X="560.0" Y="1002.5" GraphRef="sa41" ArrowHead="mim-conversion"/>
+    <Graphics ConnectorType="Segmented" ZOrder="151" Color="000000" LineThickness="1.0">
+      <Point X="312.0533321481877" Y="902.9998222281479" GraphRef="sa140"/>
+      <Point X="312.5" Y="970.0" GraphRef="csa2" ArrowHead="Arrow"/>
+      <Anchor Position="0.4925283581469152" Shape="None" GraphId="id10001"/>
     </Graphics>
-<Xref ID="hsa04210" Database="KEGG Pathway"/>
-  </Interaction>
-  <Interaction GraphId="re26">
-  <Comment></Comment>
-<BiopaxRef>ann15</BiopaxRef>
-    <Graphics ConnectorType="Segmented" ZOrder="100" Color="000000" LineThickness="3.0">
-      <Point X="1000.0" Y="129.0" GraphRef="sa8"/>
-      <Point X="945.1249999999998" Y="141.37499999999997"/>
-      <Point X="811.0" Y="143.0" GraphRef="csa1" ArrowHead="mim-binding"/>
-      <Anchor Position="0.2954654984165162" Shape="None" GraphId="id10001"/>
-    </Graphics>
-<Xref ID="hsa04210" Database="KEGG Pathway"/>
+<Xref ID="" Database=""/>
   </Interaction>
   <Interaction GraphId="id10002">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="100" Color="000000" LineThickness="3.0">
-      <Point X="945.0" Y="61.0" GraphRef="sa3"/>
-      <Point X="945.1249999999998" Y="141.37499999999997" GraphRef="id10001"/>
+    <Graphics ConnectorType="Segmented" ZOrder="151" Color="000000" LineThickness="1.0">
+      <Point X="560.8313372880469" Y="982.0000000000001" GraphRef="sa1"/>
+      <Point X="527.5354904337378" Y="938.0991664372988"/>
+      <Point X="312.0" Y="936.0" GraphRef="id10001" ArrowHead="mim-modification"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
-  <Interaction GraphId="re29">
+  <Interaction GraphId="re96">
   <Comment></Comment>
-<BiopaxRef>ann15</BiopaxRef>
-    <Graphics ConnectorType="Segmented" ZOrder="103" Color="000000" LineThickness="3.0">
-      <Point X="330.0" Y="1005.0" GraphRef="sa74"/>
-      <Point X="440.0" Y="1035.0" GraphRef="sa41" ArrowHead="mim-conversion"/>
-    </Graphics>
-<Xref ID="" Database=""/>
-  </Interaction>
-  <Interaction GraphId="re38">
-  <Comment></Comment>
-    <Graphics ConnectorType="Segmented" ZOrder="111" Color="000000" LineThickness="3.0">
-      <Point X="849.125" Y="449.5" GraphRef="sa23"/>
-      <Point X="849.125" Y="539.9999999999999"/>
-      <Point X="940.0" Y="539.9999999999968"/>
-      <Point X="940.0" Y="955.0" GraphRef="sa89" ArrowHead="mim-conversion"/>
-    </Graphics>
-<Xref ID="" Database=""/>
-  </Interaction>
-  <Interaction GraphId="re28">
-  <Comment></Comment>
-<BiopaxRef>ann15</BiopaxRef>
-    <Graphics ConnectorType="Segmented" ZOrder="102" Color="000000" LineThickness="3.0">
-      <Point X="330.0" Y="960.0" GraphRef="sa73"/>
-      <Point X="440.0" Y="1035.0" GraphRef="sa41" ArrowHead="mim-conversion"/>
-    </Graphics>
-<Xref ID="" Database=""/>
-  </Interaction>
-  <Interaction GraphId="re22">
-  <Comment></Comment>
-<BiopaxRef>ann15</BiopaxRef>
-    <Graphics ConnectorType="Segmented" ZOrder="98" Color="000000" LineThickness="3.0">
-      <Point X="1219.0" Y="468.0" GraphRef="csa9"/>
-      <Point X="1219.0" Y="615.0" GraphRef="csa3" ArrowHead="Arrow"/>
-      <Anchor Position="0.54421768707483" Shape="None" GraphId="id10003"/>
+<BiopaxRef>ann1</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="170" Color="000000" LineThickness="1.0">
+      <Point X="466.17647058823536" Y="409.0882352941177" GraphRef="csa22"/>
+      <Point X="466.81093424643484" Y="521.0442108165444"/>
+      <Point X="467.5" Y="622.0" GraphRef="csa4" ArrowHead="Arrow"/>
+      <Anchor Position="0.5463595827565371" Shape="None" GraphId="id10003"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
   <Interaction GraphId="id10004">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="98" Color="ff3333" LineStyle="Broken" LineThickness="3.0">
-      <Point X="1124.0" Y="548.5" GraphRef="csa11"/>
-      <Point X="1219.0" Y="548.0" GraphRef="id10003" ArrowHead="TBar"/>
+    <Graphics ConnectorType="Segmented" ZOrder="170" Color="000000" LineThickness="1.0">
+      <Point X="414.0" Y="157.25" GraphRef="csa3"/>
+      <Point X="394.9973452350562" Y="157.2547285277235"/>
+      <Point X="395.0888767737072" Y="525.0948535697343"/>
+      <Point X="466.81093424643484" Y="521.0442108165444" GraphRef="id10003" ArrowHead="mim-catalysis"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
-  <Interaction GraphId="re10">
+  <Interaction GraphId="re113">
   <Comment></Comment>
-<BiopaxRef>ann15</BiopaxRef>
-    <Graphics ConnectorType="Segmented" ZOrder="92" Color="000000" LineThickness="3.0">
-      <Point X="1010.0" Y="900.0" GraphRef="sa24"/>
-      <Point X="1010.0" Y="780.0" GraphRef="sa25" ArrowHead="mim-conversion"/>
-      <Anchor Position="0.5" Shape="None" GraphId="id10005"/>
-      <Anchor Position="0.5" Shape="None" GraphId="id10007"/>
+<BiopaxRef>ann2</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="153" Color="000000" LineThickness="1.0">
+      <Point X="819.0000000000001" Y="262.16949152542384" GraphRef="sa144"/>
+      <Point X="663.0" Y="262.8305084745764" GraphRef="sa143" ArrowHead="Arrow"/>
+      <Anchor Position="0.5064336930323567" Shape="None" GraphId="id10005"/>
     </Graphics>
-<Xref ID="hsa04210" Database="KEGG Pathway"/>
+<Xref ID="" Database=""/>
   </Interaction>
   <Interaction GraphId="id10006">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="92" Color="000000" LineThickness="3.0">
-      <Point X="932.0" Y="795.0" GraphRef="sa50"/>
-      <Point X="1010.0" Y="840.0" GraphRef="id10005" ArrowHead="mim-catalysis"/>
+    <Graphics ConnectorType="Segmented" ZOrder="153" Color="000000" LineThickness="1.0">
+      <Point X="702.0" Y="399.0" GraphRef="sa3"/>
+      <Point X="740.0" Y="263.0" GraphRef="id10005" ArrowHead="TBar"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="re73">
+  <Comment></Comment>
+<BiopaxRef>ann7</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="163" Color="000000" LineThickness="1.0">
+      <Point X="1128.3030303030298" Y="633.0" GraphRef="sa100"/>
+      <Point X="1129.6969696969695" Y="725.0" GraphRef="sa49" ArrowHead="Arrow"/>
+      <Anchor Position="0.5543359637344308" Shape="None" GraphId="id10007"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
   <Interaction GraphId="id10008">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="92" Color="000000" LineThickness="3.0">
-      <Point X="1180.0" Y="1030.0" GraphRef="sa31"/>
-      <Point X="1010.0" Y="840.0" GraphRef="id10007" ArrowHead="mim-catalysis"/>
+    <Graphics ConnectorType="Segmented" ZOrder="163" Color="000000" LineThickness="1.0">
+      <Point X="1273.0" Y="682.0" GraphRef="csa17"/>
+      <Point X="1129.0" Y="684.0" GraphRef="id10007" ArrowHead="mim-modification"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
-  <Interaction GraphId="re33">
+  <Interaction GraphId="re103">
   <Comment></Comment>
-<BiopaxRef>ann15</BiopaxRef>
-    <Graphics ConnectorType="Segmented" ZOrder="108" Color="000000" LineThickness="3.0">
-      <Point X="330.0" Y="870.0" GraphRef="sa75"/>
-      <Point X="440.0" Y="1035.0" GraphRef="sa41" ArrowHead="mim-conversion"/>
+<BiopaxRef>ann1</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="144" Color="000000" LineThickness="1.0">
+      <Point X="913.2133333333327" Y="1021.4999999999999" GraphRef="sa131"/>
+      <Point X="914.7226666666661" Y="1163.0" GraphRef="sa14" ArrowHead="Arrow"/>
+      <Anchor Position="0.4629045771028991" Shape="None" GraphId="id10009"/>
+      <Anchor Position="0.5335675139123741" Shape="None" GraphId="id10011"/>
     </Graphics>
 <Xref ID="" Database=""/>
-  </Interaction>
-  <Interaction GraphId="re9">
-  <Comment></Comment>
-<BiopaxRef>ann15</BiopaxRef>
-    <Graphics ConnectorType="Segmented" ZOrder="116" Color="000000" LineThickness="3.0">
-      <Point X="1000.0" Y="1050.0" GraphRef="sa30"/>
-      <Point X="1140.0" Y="1050.0" GraphRef="sa31" ArrowHead="Arrow"/>
-      <Anchor Position="0.5357142857142857" Shape="None" GraphId="id10009"/>
-      <Anchor Position="0.5" Shape="None" GraphId="id10011"/>
-      <Anchor Position="0.5" Shape="None" GraphId="id10013"/>
-    </Graphics>
-<Xref ID="hsa04210" Database="KEGG Pathway"/>
   </Interaction>
   <Interaction GraphId="id10010">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="116" Color="000000" LineThickness="3.0">
-      <Point X="1219.0" Y="752.0" GraphRef="csa3"/>
-      <Point X="1075.0" Y="1050.0" GraphRef="id10009" ArrowHead="mim-catalysis"/>
+    <Graphics ConnectorType="Segmented" ZOrder="144" Color="000000" LineThickness="1.0">
+      <Point X="686.0" Y="944.0" GraphRef="sa11"/>
+      <Point X="684.8772106771407" Y="1085.5262255089558"/>
+      <Point X="914.0" Y="1087.0" GraphRef="id10009" ArrowHead="mim-catalysis"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
   <Interaction GraphId="id10012">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="116" Color="ff0000" LineThickness="3.0">
-      <Point X="1068.5" Y="609.5" GraphRef="csa11"/>
-      <Point X="1068.000789881534" Y="675.4426983575316"/>
-      <Point X="1070.0" Y="1050.0" GraphRef="id10011" ArrowHead="TBar"/>
+    <Graphics ConnectorType="Segmented" ZOrder="144" Color="000000" LineThickness="1.0">
+      <Point X="596.0" Y="1022.0" GraphRef="sa1"/>
+      <Point X="595.4523662298941" Y="1094.9490592550706"/>
+      <Point X="914.0" Y="1097.0" GraphRef="id10011" ArrowHead="mim-modification"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="re97">
+  <Comment></Comment>
+<BiopaxRef>ann1</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="171" Color="000000" LineThickness="1.0">
+      <Point X="512.0" Y="1004.0" GraphRef="sa124"/>
+      <Point X="512.0" Y="1120.0" GraphRef="sa34" ArrowHead="Arrow"/>
+      <Anchor Position="0.5" Shape="None" GraphId="id10013"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
   <Interaction GraphId="id10014">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="116" Color="000000" LineThickness="3.0">
-      <Point X="980.0" Y="975.0" GraphRef="sa89"/>
-      <Point X="1070.0" Y="1050.0" GraphRef="id10013" ArrowHead="mim-catalysis"/>
+    <Graphics ConnectorType="Segmented" ZOrder="171" Color="000000" LineThickness="1.0">
+      <Point X="556.333333333334" Y="1022.0" GraphRef="sa1"/>
+      <Point X="512.0" Y="1062.0" GraphRef="id10013" ArrowHead="mim-modification"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
-  <Interaction GraphId="re34">
-  <Comment>Signor</Comment>
-<BiopaxRef>ann16</BiopaxRef>
-    <Graphics ConnectorType="Segmented" ZOrder="109" Color="000000" LineThickness="3.0">
-      <Point X="722.125" Y="486.0" GraphRef="sa78"/>
-      <Point X="904.0" Y="484.0" GraphRef="sa79" ArrowHead="Arrow"/>
-      <Anchor Position="0.49965639895235836" Shape="None" GraphId="id10015"/>
+  <Interaction GraphId="re72">
+  <Comment></Comment>
+<BiopaxRef>ann8</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="162" Color="000000" LineThickness="1.0">
+      <Point X="1590.5" Y="549.0" GraphRef="csa9"/>
+      <Point X="1590.4890067479505" Y="619.0212264949364"/>
+      <Point X="1590.4764150943342" Y="682.0424528301922"/>
+      <Point X="1384.0" Y="682.0" GraphRef="csa17" ArrowHead="Arrow"/>
+      <Anchor Position="0.211213396168118" Shape="None" GraphId="id10015"/>
     </Graphics>
-<Xref ID="hsa04210" Database="KEGG Pathway"/>
+<Xref ID="" Database=""/>
   </Interaction>
   <Interaction GraphId="id10016">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="109" Color="ff0000" LineThickness="3.0">
-      <Point X="815.0" Y="595.0" GraphRef="sa29"/>
-      <Point X="813.0" Y="485.0" GraphRef="id10015" ArrowHead="TBar"/>
+    <Graphics ConnectorType="Segmented" ZOrder="162" Color="000000" LineThickness="1.0">
+      <Point X="1417.2661285785596" Y="491.5" GraphRef="sa42"/>
+      <Point X="1420.0065773921074" Y="620.2182697731103"/>
+      <Point X="1590.4890067479505" Y="619.0212264949364" GraphRef="id10015" ArrowHead="mim-modification"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
-  <Interaction GraphId="re16">
+  <Interaction GraphId="re107">
   <Comment></Comment>
-    <Graphics ConnectorType="Segmented" ZOrder="96" Color="000000" LineThickness="3.0">
-      <Point X="612.0" Y="293.0" GraphRef="sa10"/>
-      <Point X="697.1250000000009" Y="291.37499999999994"/>
-      <Point X="755.6252879689002" Y="292.07700345562677"/>
-      <Point X="832.125" Y="292.875" GraphRef="csa6" ArrowHead="mim-binding"/>
-      <Anchor Position="0.40132431226920695" Shape="None" GraphId="id10017"/>
-      <Anchor Position="0.6770952522695114" Shape="None" GraphId="id10019"/>
+<BiopaxRef>ann1</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="148" Color="000000" LineThickness="1.0">
+      <Point X="467.5" Y="774.0" GraphRef="csa4"/>
+      <Point X="467.5000000000001" Y="2110.0"/>
+      <Point X="660.0" Y="2110.0" GraphRef="csa7" ArrowHead="Arrow"/>
+      <Anchor Position="0.44291801415641746" Shape="None" GraphId="id10017"/>
     </Graphics>
-<Xref ID="hsa04210" Database="KEGG Pathway"/>
+<Xref ID="" Database=""/>
   </Interaction>
   <Interaction GraphId="id10018">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="96" Color="000000" LineThickness="3.0">
-      <Point X="689.125" Y="266.375" GraphRef="sa44"/>
-      <Point X="697.1250000000009" Y="291.37499999999994" GraphRef="id10017"/>
+    <Graphics ConnectorType="Segmented" ZOrder="148" Color="000000" LineThickness="1.0">
+      <Point X="507.0" Y="1391.0" GraphRef="sa83"/>
+      <Point X="468.0" Y="1451.0" GraphRef="id10017" ArrowHead="mim-modification"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="re67">
+  <Comment></Comment>
+<BiopaxRef>ann9</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="159" Color="000000" LineThickness="1.0">
+      <Point X="1366.0000000000002" Y="249.2780624255692" GraphRef="sa45"/>
+      <Point X="1183.8030769230745" Y="250.5446153846189"/>
+      <Point X="1183.8812140346784" Y="294.7689996594491"/>
+      <Point X="1183.97348579004" Y="337.0" GraphRef="sa93" ArrowHead="Arrow"/>
+      <Anchor Position="0.8686737064877976" Shape="None" GraphId="id10019"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
   <Interaction GraphId="id10020">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="96" Color="000000" LineThickness="3.0">
-      <Point X="760.5" Y="184.0" GraphRef="csa1"/>
-      <Point X="755.6252879689002" Y="292.07700345562677" GraphRef="id10019" ArrowHead="mim-catalysis"/>
+    <Graphics ConnectorType="Segmented" ZOrder="159" Color="000000" LineThickness="1.0">
+      <Point X="1407.8113590443966" Y="409.5" GraphRef="sa41"/>
+      <Point X="1406.1110360338077" Y="296.83073597757016"/>
+      <Point X="1183.8812140346784" Y="294.7689996594491" GraphRef="id10019" ArrowHead="mim-modification"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
-  <Interaction GraphId="re30">
+  <Interaction GraphId="re24">
   <Comment></Comment>
-<BiopaxRef>ann15</BiopaxRef>
-    <Graphics ConnectorType="Segmented" ZOrder="105" Color="000000" LineThickness="3.0">
-      <Point X="970.0" Y="760.0" GraphRef="sa25"/>
-      <Point X="804.9991424627409" Y="763.417177522961"/>
-      <Point X="605.5" Y="767.0" GraphRef="csa5" ArrowHead="Arrow"/>
-      <Anchor Position="0.3792520625023228" Shape="None" GraphId="id10021"/>
-      <Anchor Position="0.3792520625023228" Shape="None" GraphId="id10023"/>
-      <Anchor Position="0.46284700839983306" Shape="None" GraphId="id10025"/>
+<BiopaxRef>ann10</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="154" Color="000000" LineThickness="1.0">
+      <Point X="708.0" Y="1469.0" GraphRef="sa82"/>
+      <Point X="704.2985074626857" Y="1717.0000000000002" GraphRef="sa25" ArrowHead="Arrow"/>
+      <Anchor Position="0.3999999999999998" Shape="None" GraphId="id10021"/>
+      <Anchor Position="0.3999999999999998" Shape="None" GraphId="id10023"/>
     </Graphics>
-<Xref ID="hsa04210" Database="KEGG Pathway"/>
+<Xref ID="" Database=""/>
   </Interaction>
   <Interaction GraphId="id10022">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="105" Color="000000" LineThickness="1.0">
-      <Point X="960.0" Y="680.0" GraphRef="sa27"/>
-      <Point X="834.8" Y="762.8" GraphRef="id10021"/>
+    <Graphics ConnectorType="Segmented" ZOrder="154" Color="000000" LineThickness="1.0">
+      <Point X="929.0" Y="1215.0" GraphRef="sa14"/>
+      <Point X="928.3194737999527" Y="1457.4517209026328"/>
+      <Point X="706.5194029850743" Y="1568.2" GraphRef="id10021"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
   <Interaction GraphId="id10024">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="105" Color="000000" LineThickness="1.0">
-      <Point X="854.2596810933936" Y="695.0" GraphRef="sa47"/>
-      <Point X="834.8" Y="762.8" GraphRef="id10023"/>
+    <Graphics ConnectorType="Segmented" ZOrder="154" Color="000000" LineThickness="1.0">
+      <Point X="790.8521530829274" Y="1253.0" GraphRef="sa10"/>
+      <Point X="789.5731391617379" Y="1477.9242839096773"/>
+      <Point X="706.5194029850743" Y="1568.2" GraphRef="id10023"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="re64">
+  <Comment></Comment>
+<BiopaxRef>ann11</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="158" Color="000000" LineThickness="1.0">
+      <Point X="860.0" Y="2140.0" GraphRef="sa88"/>
+      <Point X="915.0" Y="2140.0" GraphRef="sa147" ArrowHead="Arrow"/>
+      <Anchor Position="0.509090909090909" Shape="None" GraphId="id10025"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
   <Interaction GraphId="id10026">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="105" Color="ff0000" LineThickness="3.0">
-      <Point X="815.0" Y="635.0" GraphRef="sa29"/>
-      <Point X="815.0009165030812" Y="720.006776940464"/>
-      <Point X="814.9461613091903" Y="720.0067775308094"/>
-      <Point X="804.9991424627409" Y="763.417177522961" GraphRef="id10025" ArrowHead="TBar"/>
+    <Graphics ConnectorType="Segmented" ZOrder="158" Color="000000" LineThickness="1.0">
+      <Point X="885.4347826086951" Y="2040.0" GraphRef="sa87"/>
+      <Point X="888.0" Y="2140.0" GraphRef="id10025" ArrowHead="mim-necessary-stimulation"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
-  <Interaction GraphId="re35">
+  <Interaction GraphId="re61">
   <Comment></Comment>
-<BiopaxRef>ann15</BiopaxRef>
-    <Graphics ConnectorType="Segmented" ZOrder="110" Color="000000" LineThickness="3.0">
-      <Point X="361.125" Y="671.375" GraphRef="sa17"/>
-      <Point X="361.0083549064133" Y="846.1939197187537"/>
-      <Point X="560.1042040635622" Y="846.3267632004263"/>
-      <Point X="560.0" Y="1002.5" GraphRef="sa41" ArrowHead="mim-conversion"/>
+<BiopaxRef>ann10</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="157" Color="000000" LineThickness="1.0">
+      <Point X="673.0" Y="1889.0" GraphRef="sa127"/>
+      <Point X="754.0" Y="1889.0" GraphRef="sa92" ArrowHead="Arrow"/>
+      <Anchor Position="0.4444444444444444" Shape="None" GraphId="id10027"/>
+      <Anchor Position="0.5679012345679012" Shape="None" GraphId="id10029"/>
+      <Anchor Position="0.5061728395061729" Shape="None" GraphId="id10031"/>
     </Graphics>
-<Xref ID="hsa04210" Database="KEGG Pathway"/>
-  </Interaction>
-  <Interaction GraphId="re3">
-  <Comment></Comment>
-<BiopaxRef>ann15</BiopaxRef>
-    <Graphics ConnectorType="Segmented" ZOrder="104" Color="000000" LineThickness="3.0">
-      <Point X="291.0" Y="295.0" GraphRef="sa9"/>
-      <Point X="532.0" Y="293.0" GraphRef="sa10" ArrowHead="Arrow"/>
-      <Anchor Position="0.5020745462192479" Shape="None" GraphId="id10027"/>
-    </Graphics>
-<Xref ID="hsa04210" Database="KEGG Pathway"/>
+<Xref ID="" Database=""/>
   </Interaction>
   <Interaction GraphId="id10028">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="104" Color="000000" LineThickness="3.0">
-      <Point X="410.5" Y="182.0" GraphRef="csa2"/>
-      <Point X="412.0" Y="294.0" GraphRef="id10027" ArrowHead="mim-catalysis"/>
+    <Graphics ConnectorType="Segmented" ZOrder="157" Color="000000" LineThickness="1.0">
+      <Point X="704.6122448979582" Y="1757.0" GraphRef="sa25"/>
+      <Point X="709.0" Y="1889.0" GraphRef="id10027" ArrowHead="mim-catalysis"/>
     </Graphics>
 <Xref ID="" Database=""/>
-  </Interaction>
-  <Interaction GraphId="re23">
-  <Comment></Comment>
-<BiopaxRef>ann16</BiopaxRef>
-<BiopaxRef>ann17</BiopaxRef>
-    <Graphics ConnectorType="Segmented" ZOrder="99" Color="000000" LineThickness="3.0">
-      <Point X="1069.5" Y="360.0" GraphRef="csa10"/>
-      <Point X="1069.0427783020916" Y="419.7502287544323"/>
-      <Point X="1068.5" Y="470.5" GraphRef="csa11" ArrowHead="Arrow"/>
-      <Anchor Position="0.5829196728389339" Shape="None" GraphId="id10029"/>
-      <Anchor Position="0.6731578551731571" Shape="None" GraphId="id10031"/>
-      <Anchor Position="0.6146305288859201" Shape="None" GraphId="id10033"/>
-    </Graphics>
-<Xref ID="hsa04210" Database="KEGG Pathway"/>
   </Interaction>
   <Interaction GraphId="id10030">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="99" Color="ff3333" LineThickness="3.0">
-      <Point X="984.0" Y="378.5" GraphRef="sa43"/>
-      <Point X="1069.0427783020916" Y="419.7502287544323" GraphRef="id10029" ArrowHead="TBar"/>
+    <Graphics ConnectorType="Segmented" ZOrder="157" Color="000000" LineThickness="1.0">
+      <Point X="753.9746835443038" Y="1825.0" GraphRef="sa90"/>
+      <Point X="719.0" Y="1889.0" GraphRef="id10029" ArrowHead="mim-catalysis"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
   <Interaction GraphId="id10032">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="99" Color="ff3333" LineStyle="Broken" LineThickness="3.0">
-      <Point X="984.0" Y="429.5" GraphRef="sa69"/>
-      <Point X="1069.0" Y="429.0" GraphRef="id10031" ArrowHead="TBar"/>
+    <Graphics ConnectorType="Segmented" ZOrder="157" Color="000000" LineThickness="1.0">
+      <Point X="710.0" Y="2050.0" GraphRef="csa7"/>
+      <Point X="714.0" Y="1889.0" GraphRef="id10031" ArrowHead="mim-necessary-stimulation"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="re92">
+  <Comment></Comment>
+<BiopaxRef>ann12</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="168" Color="000000" LineThickness="1.0">
+      <Point X="665.7328147526182" Y="725.5882352941171" GraphRef="sa116"/>
+      <Point X="665.9730676003234" Y="904.0" GraphRef="sa11" ArrowHead="Arrow"/>
+      <Anchor Position="0.5011557561358793" Shape="None" GraphId="id10033"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
   <Interaction GraphId="id10034">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="99" Color="ff0000" LineThickness="3.0">
-      <Point X="984.0" Y="484.0" GraphRef="sa79"/>
-      <Point X="1069.0" Y="431.0" GraphRef="id10033" ArrowHead="TBar"/>
+    <Graphics ConnectorType="Segmented" ZOrder="168" Color="000000" LineThickness="1.0">
+      <Point X="1031.0" Y="549.9723863499263" GraphRef="sa48"/>
+      <Point X="748.1845709384766" Y="549.7771471925869"/>
+      <Point X="747.4197226447299" Y="814.8671554826909"/>
+      <Point X="666.0" Y="815.0" GraphRef="id10033" ArrowHead="mim-modification"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
-  <Interaction GraphId="re7">
+  <Interaction GraphId="re112">
   <Comment></Comment>
-<BiopaxRef>ann15</BiopaxRef>
-    <Graphics ConnectorType="Segmented" ZOrder="114" Color="000000" LineThickness="3.0">
-      <Point X="201.125" Y="531.375" GraphRef="sa18"/>
-      <Point X="469.125" Y="531.375" GraphRef="sa19" ArrowHead="Arrow"/>
-      <Anchor Position="0.4808789014390077" Shape="None" GraphId="id10035"/>
-      <Anchor Position="0.5181921876854745" Shape="None" GraphId="id10037"/>
+<BiopaxRef>ann12</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="152" Color="000000" LineThickness="1.0">
+      <Point X="665.0" Y="179.0" GraphRef="sa142"/>
+      <Point X="855.0" Y="180.25" GraphRef="csa8" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="id10035"/>
+      <Anchor Position="0.4" Shape="None" GraphId="id10037"/>
     </Graphics>
-<Xref ID="hsa04210" Database="KEGG Pathway"/>
+<Xref ID="" Database=""/>
   </Interaction>
   <Interaction GraphId="id10036">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="114" Color="000000" LineThickness="3.0">
-      <Point X="559.0" Y="693.0" GraphRef="csa5"/>
-      <Point X="559.0049618026904" Y="594.0009301932048"/>
-      <Point X="330.1221123811925" Y="593.9894586557425"/>
-      <Point X="330.0" Y="531.0" GraphRef="id10035" ArrowHead="mim-catalysis"/>
+    <Graphics ConnectorType="Segmented" ZOrder="152" Color="000000" LineThickness="1.0">
+      <Point X="665.3273273273272" Y="143.67267267267263" GraphRef="sa141"/>
+      <Point X="741.0" Y="179.5" GraphRef="id10035"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
   <Interaction GraphId="id10038">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="114" Color="ff0000" LineThickness="3.0">
-      <Point X="815.0" Y="595.0" GraphRef="sa29"/>
-      <Point X="815.0001818221634" Y="584.9997669706003"/>
-      <Point X="340.1241160715508" Y="584.9911328724289"/>
-      <Point X="340.0" Y="531.0" GraphRef="id10037" ArrowHead="TBar"/>
+    <Graphics ConnectorType="Segmented" ZOrder="152" Color="000000" LineThickness="1.0">
+      <Point X="651.2634730538924" Y="243.0" GraphRef="sa143"/>
+      <Point X="741.0" Y="179.5" GraphRef="id10037"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
-  <Interaction GraphId="re27">
+  <Interaction GraphId="re100">
   <Comment></Comment>
-<BiopaxRef>ann15</BiopaxRef>
-    <Graphics ConnectorType="Segmented" ZOrder="101" Color="000000" LineThickness="3.0">
-      <Point X="330.0" Y="915.0" GraphRef="sa72"/>
-      <Point X="440.0" Y="1035.0" GraphRef="sa41" ArrowHead="mim-conversion"/>
+<BiopaxRef>ann10</BiopaxRef>
+<BiopaxRef>ann1</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="143" Color="000000" LineThickness="1.0">
+      <Point X="347.0" Y="1384.0" GraphRef="csa6"/>
+      <Point X="348.2602943496387" Y="1752.7824353781727"/>
+      <Point X="349.54941315794787" Y="2110.5648188280884"/>
+      <Point X="660.0" Y="2110.0" GraphRef="csa7" ArrowHead="Arrow"/>
+      <Anchor Position="0.36734094334419676" Shape="None" GraphId="id10039"/>
+      <Anchor Position="0.35762299790693064" Shape="None" GraphId="id10041"/>
+      <Anchor Position="0.36615852361462703" Shape="None" GraphId="id10043"/>
     </Graphics>
 <Xref ID="" Database=""/>
-  </Interaction>
-  <Interaction GraphId="re31">
-  <Comment></Comment>
-<BiopaxRef>ann15</BiopaxRef>
-    <Graphics ConnectorType="Segmented" ZOrder="106" Color="000000" LineThickness="3.0">
-      <Point X="330.0" Y="825.0" GraphRef="sa76"/>
-      <Point X="440.0" Y="1035.0" GraphRef="sa41" ArrowHead="mim-conversion"/>
-    </Graphics>
-<Xref ID="" Database=""/>
-  </Interaction>
-  <Interaction GraphId="re1">
-  <Comment></Comment>
-<BiopaxRef>ann15</BiopaxRef>
-    <Graphics ConnectorType="Segmented" ZOrder="91" Color="000000" LineThickness="3.0">
-      <Point X="253.0" Y="61.0" GraphRef="sa2"/>
-      <Point X="253.00000000000003" Y="142.0"/>
-      <Point X="360.0" Y="139.875" GraphRef="csa2" ArrowHead="mim-binding"/>
-      <Anchor Position="0.43080271545702403" Shape="None" GraphId="id10039"/>
-    </Graphics>
-<Xref ID="hsa04210" Database="KEGG Pathway"/>
   </Interaction>
   <Interaction GraphId="id10040">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="91" Color="000000" LineThickness="3.0">
-      <Point X="200.0" Y="129.0" GraphRef="sa5"/>
-      <Point X="253.00000000000003" Y="142.0" GraphRef="id10039"/>
+    <Graphics ConnectorType="Segmented" ZOrder="143" Color="000000" LineThickness="1.0">
+      <Point X="646.0" Y="944.0" GraphRef="sa11"/>
+      <Point X="645.9879424125263" Y="1761.768677316374"/>
+      <Point X="348.0" Y="1762.0" GraphRef="id10039" ArrowHead="mim-catalysis"/>
     </Graphics>
 <Xref ID="" Database=""/>
-  </Interaction>
-  <Interaction GraphId="re6">
-  <Comment></Comment>
-<BiopaxRef>ann15</BiopaxRef>
-    <Graphics ConnectorType="Segmented" ZOrder="113" Color="000000" LineThickness="3.0">
-      <Point X="201.125" Y="651.375" GraphRef="sa15"/>
-      <Point X="321.125" Y="651.375" GraphRef="sa17" ArrowHead="Arrow"/>
-      <Anchor Position="0.45730234421854626" Shape="None" GraphId="id10041"/>
-      <Anchor Position="0.5406340317164653" Shape="None" GraphId="id10043"/>
-    </Graphics>
-<Xref ID="hsa04210" Database="KEGG Pathway"/>
   </Interaction>
   <Interaction GraphId="id10042">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="113" Color="000000" LineThickness="3.0">
-      <Point X="361.125" Y="461.375" GraphRef="sa14"/>
-      <Point X="361.1266022665924" Y="486.37544189407623"/>
-      <Point X="256.1147461347153" Y="486.38217205467083"/>
-      <Point X="256.0" Y="651.0" GraphRef="id10041" ArrowHead="mim-catalysis"/>
+    <Graphics ConnectorType="Segmented" ZOrder="143" Color="000000" LineThickness="1.0">
+      <Point X="442.75" Y="774.0" GraphRef="csa4"/>
+      <Point X="442.7410484845814" Y="1751.7652603146935"/>
+      <Point X="348.0" Y="1752.0" GraphRef="id10041" ArrowHead="mim-catalysis"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
   <Interaction GraphId="id10044">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="113" Color="000000" LineThickness="3.0">
-      <Point X="509.125" Y="551.375" GraphRef="sa19"/>
-      <Point X="509.12521743205633" Y="561.3754965384236"/>
-      <Point X="266.12315204495434" Y="561.3807799199585"/>
-      <Point X="266.0" Y="651.0" GraphRef="id10043" ArrowHead="mim-catalysis"/>
+    <Graphics ConnectorType="Segmented" ZOrder="143" Color="000000" LineThickness="1.0">
+      <Point X="576.0" Y="1022.0" GraphRef="sa1"/>
+      <Point X="575.9908515160927" Y="1756.767167135555"/>
+      <Point X="348.2891188083091" Y="1760.7823834499156" GraphRef="id10043" ArrowHead="mim-modification"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
-  <Interaction GraphId="re19">
-  <Comment></Comment>
-<BiopaxRef>ann15</BiopaxRef>
-    <Graphics ConnectorType="Segmented" ZOrder="97" Color="000000" LineThickness="3.0">
-      <Point X="720.0" Y="795.0" GraphRef="sa49"/>
-      <Point X="852.0" Y="795.0" GraphRef="sa50" ArrowHead="Arrow"/>
-      <Anchor Position="0.5" Shape="None" GraphId="id10045"/>
+  <Interaction GraphId="re68">
+  <Comment>TLR3 PMID:23758787
+TRIM38 PMID:22539786</Comment>
+<BiopaxRef>ann13</BiopaxRef>
+<BiopaxRef>ann9</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="160" Color="000000" LineThickness="1.0">
+      <Point X="1071.9078341013826" Y="353.0" GraphRef="sa94"/>
+      <Point X="1071.0921658986176" Y="530.0" GraphRef="sa48" ArrowHead="Arrow"/>
+      <Anchor Position="0.5028197893657196" Shape="None" GraphId="id10045"/>
+      <Anchor Position="0.45762255579185485" Shape="None" GraphId="id10047"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
   <Interaction GraphId="id10046">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="97" Color="000000" LineThickness="3.0">
-      <Point X="786.0" Y="835.0" GraphRef="sa48"/>
-      <Point X="786.0" Y="795.0" GraphRef="id10045" ArrowHead="mim-catalysis"/>
+    <Graphics ConnectorType="Segmented" ZOrder="160" Color="000000" LineThickness="1.0">
+      <Point X="1164.0" Y="382.0" GraphRef="sa93"/>
+      <Point X="1107.6463900522435" Y="440.9099963734954"/>
+      <Point X="1072.0" Y="442.0" GraphRef="id10045" ArrowHead="mim-modification"/>
     </Graphics>
 <Xref ID="" Database=""/>
-  </Interaction>
-  <Interaction GraphId="re12">
-  <Comment></Comment>
-<BiopaxRef>ann15</BiopaxRef>
-    <Graphics ConnectorType="Segmented" ZOrder="93" Color="000000" LineThickness="3.0">
-      <Point X="201.125" Y="771.375" GraphRef="sa39"/>
-      <Point X="367.125" Y="771.375" GraphRef="sa40" ArrowHead="Arrow"/>
-      <Anchor Position="0.5293722899915947" Shape="None" GraphId="id10047"/>
-      <Anchor Position="0.46913194508440703" Shape="None" GraphId="id10049"/>
-    </Graphics>
-<Xref ID="hsa04210" Database="KEGG Pathway"/>
   </Interaction>
   <Interaction GraphId="id10048">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="93" Color="000000" LineThickness="3.0">
-      <Point X="509.125" Y="551.375" GraphRef="sa19"/>
-      <Point X="509.1250274794097" Y="603.3773905986548"/>
-      <Point X="289.12491386790737" Y="603.3775068524078"/>
-      <Point X="289.0" Y="771.0" GraphRef="id10047" ArrowHead="mim-catalysis"/>
+    <Graphics ConnectorType="Segmented" ZOrder="160" Color="000000" LineThickness="1.0">
+      <Point X="1040.3175979907458" Y="414.00000000000006" GraphRef="sa50"/>
+      <Point X="1072.0" Y="434.0" GraphRef="id10047" ArrowHead="TBar"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="re70">
+  <Comment>https://www.biorxiv.org/content/10.1101/2020.03.22.002386v3
+A SARS-CoV-2-Human Protein-Protein Interaction Map Reveals Drug Targets and Potential DrugRepurposing</Comment>
+<BiopaxRef>ann12</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="161" Color="000000" LineThickness="1.0">
+      <Point X="702.8974358974357" Y="594.0000000000001" GraphRef="sa96"/>
+      <Point X="702.1025641025644" Y="439.00000000000006" GraphRef="sa3" ArrowHead="Arrow"/>
+      <Anchor Position="0.4967681021614214" Shape="None" GraphId="id10049"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
   <Interaction GraphId="id10050">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="93" Color="000000" LineThickness="3.0">
-      <Point X="361.125" Y="461.375" GraphRef="sa14"/>
-      <Point X="361.1265519646457" Y="501.37589420433045"/>
-      <Point X="279.1147186222129" Y="501.3790761198454"/>
-      <Point X="279.0" Y="771.0" GraphRef="id10049" ArrowHead="mim-catalysis"/>
+    <Graphics ConnectorType="Segmented" ZOrder="161" Color="000000" LineThickness="1.0">
+      <Point X="596.0" Y="982.0" GraphRef="sa1"/>
+      <Point X="595.6890412723785" Y="516.5936651743161"/>
+      <Point X="703.0" Y="517.0" GraphRef="id10049" ArrowHead="mim-modification"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
-  <Interaction GraphId="re15">
+  <Interaction GraphId="re110">
+  <Comment></Comment>
+<BiopaxRef>ann14</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="150" Color="000000" LineThickness="1.0">
+      <Point X="1265.0" Y="2238.553633217994" GraphRef="sa76"/>
+      <Point X="1200.5" Y="2239.4463667820078" GraphRef="sa139" ArrowHead="Arrow"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="re50">
   <Comment></Comment>
 <BiopaxRef>ann15</BiopaxRef>
-    <Graphics ConnectorType="Segmented" ZOrder="95" Color="000000" LineThickness="3.0">
-      <Point X="650.0" Y="615.0" GraphRef="sa28"/>
-      <Point X="775.0" Y="615.0" GraphRef="sa29" ArrowHead="Arrow"/>
-      <Anchor Position="0.496" Shape="None" GraphId="id10051"/>
+    <Graphics ConnectorType="Segmented" ZOrder="156" Color="000000" LineThickness="1.0">
+      <Point X="1066.327868852458" Y="1748.0" GraphRef="sa64"/>
+      <Point X="1068.67213114754" Y="1890.9999999999998" GraphRef="sa65" ArrowHead="Arrow"/>
+      <Anchor Position="0.5034507962612982" Shape="None" GraphId="id10051"/>
+      <Anchor Position="0.5034507962612982" Shape="None" GraphId="id10053"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
   <Interaction GraphId="id10052">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="95" Color="ff0000" LineThickness="3.0">
-      <Point X="712.0" Y="661.5" GraphRef="sa42"/>
-      <Point X="712.0" Y="615.0" GraphRef="id10051" ArrowHead="TBar"/>
+    <Graphics ConnectorType="Segmented" ZOrder="156" Color="000000" LineThickness="1.0">
+      <Point X="1320.0" Y="1816.4755528087342" GraphRef="sa75"/>
+      <Point X="1067.0" Y="1820.0" GraphRef="id10051" ArrowHead="mim-catalysis"/>
     </Graphics>
 <Xref ID="" Database=""/>
-  </Interaction>
-  <Interaction GraphId="re32">
-  <Comment></Comment>
-<BiopaxRef>ann15</BiopaxRef>
-    <Graphics ConnectorType="Segmented" ZOrder="107" Color="000000" LineThickness="3.0">
-      <Point X="330.0" Y="1050.0" GraphRef="sa77"/>
-      <Point X="440.0" Y="1035.0" GraphRef="sa41" ArrowHead="mim-conversion"/>
-    </Graphics>
-<Xref ID="" Database=""/>
-  </Interaction>
-  <Interaction GraphId="re8">
-  <Comment></Comment>
-<BiopaxRef>ann15</BiopaxRef>
-    <Graphics ConnectorType="Segmented" ZOrder="115" Color="000000" LineThickness="3.0">
-      <Point X="722.125" Y="429.5" GraphRef="sa22"/>
-      <Point X="809.125" Y="429.5" GraphRef="sa23" ArrowHead="Arrow"/>
-      <Anchor Position="0.5043430909236284" Shape="None" GraphId="id10053"/>
-    </Graphics>
-<Xref ID="hsa04210" Database="KEGG Pathway"/>
   </Interaction>
   <Interaction GraphId="id10054">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="115" Color="000000" LineThickness="3.0">
-      <Point X="361.125" Y="421.375" GraphRef="sa14"/>
-      <Point X="361.12586521444985" Y="386.37499333710025"/>
-      <Point X="765.6259422185359" Y="386.384992744099"/>
-      <Point X="766.0" Y="430.0" GraphRef="id10053" ArrowHead="mim-catalysis"/>
+    <Graphics ConnectorType="Segmented" ZOrder="156" Color="000000" LineThickness="1.0">
+      <Point X="1258.0" Y="1599.0" GraphRef="csa12"/>
+      <Point X="1259.2619599721638" Y="1818.2642099206519"/>
+      <Point X="1067.0" Y="1820.0" GraphRef="id10053" ArrowHead="mim-catalysis"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
-  <Interaction GraphId="re5">
-  <Comment></Comment>
-<BiopaxRef>ann15</BiopaxRef>
-<BiopaxRef>ann1</BiopaxRef>
-    <Graphics ConnectorType="Segmented" ZOrder="112" Color="000000" LineThickness="3.0">
-      <Point X="201.125" Y="441.375" GraphRef="sa13"/>
-      <Point X="321.125" Y="441.375" GraphRef="sa14" ArrowHead="Arrow"/>
-      <Anchor Position="0.45730234421854626" Shape="None" GraphId="id10055"/>
-      <Anchor Position="0.5406340317164653" Shape="None" GraphId="id10057"/>
-      <Anchor Position="0.45730234421854626" Shape="None" GraphId="id10059"/>
+  <Interaction GraphId="re75">
+  <Comment>TRAF6 PMID:20724660
+TRIM 38 PMID: 22539786
+TRIM 23 PMID: 20724660</Comment>
+<BiopaxRef>ann7</BiopaxRef>
+<BiopaxRef>ann13</BiopaxRef>
+<BiopaxRef>ann16</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="164" Color="000000" LineThickness="1.0">
+      <Point X="965.1960784313728" Y="663.0" GraphRef="sa101"/>
+      <Point X="966.8039215686271" Y="827.0" GraphRef="sa38" ArrowHead="Arrow"/>
+      <Anchor Position="0.5" Shape="None" GraphId="id10055"/>
+      <Anchor Position="0.5" Shape="None" GraphId="id10057"/>
+      <Anchor Position="0.46951522035667126" Shape="None" GraphId="id10059"/>
     </Graphics>
-<Xref ID="hsa04210" Database="KEGG Pathway"/>
+<Xref ID="" Database=""/>
   </Interaction>
   <Interaction GraphId="id10056">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="112" Color="000000" LineThickness="3.0">
-      <Point X="572.0" Y="313.0" GraphRef="sa10"/>
-      <Point X="572.0008928058513" Y="336.3746086898519"/>
-      <Point X="256.1211808916748" Y="336.38667388670405"/>
-      <Point X="256.0" Y="441.0" GraphRef="id10055" ArrowHead="mim-catalysis"/>
+    <Graphics ConnectorType="Segmented" ZOrder="164" Color="000000" LineThickness="1.0">
+      <Point X="1090.0" Y="745.0" GraphRef="sa49"/>
+      <Point X="966.0" Y="745.0" GraphRef="id10055" ArrowHead="mim-modification"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
   <Interaction GraphId="id10058">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="112" Color="000000" LineThickness="3.0">
-      <Point X="851.375" Y="335.375" GraphRef="csa6"/>
-      <Point X="851.3618803342417" Y="371.75729380561285"/>
-      <Point X="266.166835556194" Y="371.3806157210011"/>
-      <Point X="266.0" Y="441.0" GraphRef="id10057" ArrowHead="mim-catalysis"/>
+    <Graphics ConnectorType="Segmented" ZOrder="164" Color="000000" LineThickness="1.0">
+      <Point X="917.9999999999999" Y="743.9874753352138" GraphRef="sa52"/>
+      <Point X="966.0" Y="745.0" GraphRef="id10057" ArrowHead="TBar"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
   <Interaction GraphId="id10060">
     <Attribute Key="org.pathvisio.core.ds" Value=""/>
     <Attribute Key="org.pathvisio.core.id" Value=""/>
-    <Graphics ConnectorType="Segmented" ZOrder="112" Color="000000" LineThickness="3.0">
-      <Point X="200.0" Y="370.0" GraphRef="sa92"/>
-      <Point X="256.0" Y="441.0" GraphRef="id10059" ArrowHead="mim-catalysis"/>
+    <Graphics ConnectorType="Segmented" ZOrder="164" Color="000000" LineThickness="1.0">
+      <Point X="1007.9158853355233" Y="716.6666666666661" GraphRef="sa70"/>
+      <Point X="966.0" Y="740.0" GraphRef="id10059" ArrowHead="mim-modification"/>
     </Graphics>
 <Xref ID="" Database=""/>
   </Interaction>
-  <Shape TextLabel="mitochondrion" GraphId="ca6">
+  <Interaction GraphId="re106">
+  <Comment></Comment>
+<BiopaxRef>ann1</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="147" Color="000000" LineThickness="1.0">
+      <Point X="660.0" Y="2080.0" GraphRef="csa7"/>
+      <Point X="633.0" Y="2080.0000000000005"/>
+      <Point X="633.0" Y="1909.0" GraphRef="sa127" ArrowHead="mim-modification"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="re90">
+  <Comment></Comment>
+<BiopaxRef>ann11</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="167" Color="000000" LineThickness="1.0">
+      <Point X="884.066445182724" Y="1739.0" GraphRef="sa86"/>
+      <Point X="884.9335548172755" Y="1999.9999999999998" GraphRef="sa87" ArrowHead="Arrow"/>
+      <Anchor Position="0.501913003474383" Shape="None" GraphId="id10061"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="id10062">
+    <Attribute Key="org.pathvisio.core.ds" Value=""/>
+    <Attribute Key="org.pathvisio.core.id" Value=""/>
+    <Graphics ConnectorType="Segmented" ZOrder="167" Color="000000" LineThickness="1.0">
+      <Point X="1080.5" Y="1244.0" GraphRef="csa10"/>
+      <Point X="1005.9395894934237" Y="1439.1230471562124"/>
+      <Point X="1007.7007317331373" Y="1665.571894596336"/>
+      <Point X="884.0" Y="1870.0" GraphRef="id10061" ArrowHead="mim-modification"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="re32">
+  <Comment>TRIM59 inhibition
+PMID 22588174</Comment>
+<BiopaxRef>ann9</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="155" Color="000000" LineThickness="1.0">
+      <Point X="965.6666666666667" Y="353.00000000000006" GraphRef="sa135"/>
+      <Point X="965.0" Y="623.0" GraphRef="sa101" ArrowHead="Arrow"/>
+      <Anchor Position="0.5000045724249247" Shape="None" GraphId="id10063"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="id10064">
+    <Attribute Key="org.pathvisio.core.ds" Value=""/>
+    <Attribute Key="org.pathvisio.core.id" Value=""/>
+    <Graphics ConnectorType="Segmented" ZOrder="155" Color="000000" LineThickness="1.0">
+      <Point X="910.0" Y="209.5" GraphRef="csa8"/>
+      <Point X="910.1019389355871" Y="488.00716063197115"/>
+      <Point X="965.0" Y="488.0" GraphRef="id10063" ArrowHead="mim-catalysis"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="re89">
+  <Comment>TRIM22 PMID 23408607
+TRIM27 PMID:26358190
+TRIM21 PMID:23222971
+TRIM29 PMID:27695001
+TRIM14 PMID:24379373
+TRIM23 PMID:20724660</Comment>
+<BiopaxRef>ann17</BiopaxRef>
+<BiopaxRef>ann18</BiopaxRef>
+<BiopaxRef>ann19</BiopaxRef>
+<BiopaxRef>ann9</BiopaxRef>
+<BiopaxRef>ann20</BiopaxRef>
+<BiopaxRef>ann16</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="166" Color="000000" LineThickness="1.0">
+      <Point X="1259.0" Y="1283.5" GraphRef="csa20"/>
+      <Point X="1258.5284690298079" Y="1364.7501013119902"/>
+      <Point X="1258.0" Y="1439.0" GraphRef="csa12" ArrowHead="Arrow"/>
+      <Anchor Position="0.6050813384679167" Shape="None" GraphId="id10065"/>
+      <Anchor Position="0.5508452875776569" Shape="None" GraphId="id10067"/>
+      <Anchor Position="0.5321916675756054" Shape="None" GraphId="id10069"/>
+      <Anchor Position="0.6135832625643876" Shape="None" GraphId="id10071"/>
+      <Anchor Position="0.6135832625643876" Shape="None" GraphId="id10073"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="id10066">
+    <Attribute Key="org.pathvisio.core.ds" Value=""/>
+    <Attribute Key="org.pathvisio.core.id" Value=""/>
+    <Graphics ConnectorType="Segmented" ZOrder="166" Color="000000" LineThickness="1.0">
+      <Point X="1107.0" Y="1244.0" GraphRef="csa10"/>
+      <Point X="1107.4035039112332" Y="1368.3406775964345"/>
+      <Point X="1258.4715309701921" Y="1372.7498986880098" GraphRef="id10065" ArrowHead="mim-modification"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="id10068">
+    <Attribute Key="org.pathvisio.core.ds" Value=""/>
+    <Attribute Key="org.pathvisio.core.id" Value=""/>
+    <Graphics ConnectorType="Segmented" ZOrder="166" Color="000000" LineThickness="1.0">
+      <Point X="1414.0" Y="1368.9549787779097" GraphRef="sa56"/>
+      <Point X="1258.5284690298079" Y="1364.7501013119902" GraphRef="id10067" ArrowHead="TBar"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="id10070">
+    <Attribute Key="org.pathvisio.core.ds" Value=""/>
+    <Attribute Key="org.pathvisio.core.id" Value=""/>
+    <Graphics ConnectorType="Segmented" ZOrder="166" Color="000000" LineThickness="1.0">
+      <Point X="1357.7933705697612" Y="1310.793370569761" GraphRef="sa67"/>
+      <Point X="1259.0" Y="1362.0" GraphRef="id10069" ArrowHead="TBar"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="id10072">
+    <Attribute Key="org.pathvisio.core.ds" Value=""/>
+    <Attribute Key="org.pathvisio.core.id" Value=""/>
+    <Graphics ConnectorType="Segmented" ZOrder="166" Color="000000" LineThickness="1.0">
+      <Point X="1373.0" Y="1436.0" GraphRef="csa15"/>
+      <Point X="1372.8942349245192" Y="1373.5999810706146"/>
+      <Point X="1258.0" Y="1374.0" GraphRef="id10071" ArrowHead="mim-modification"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="id10074">
+    <Attribute Key="org.pathvisio.core.ds" Value=""/>
+    <Attribute Key="org.pathvisio.core.id" Value=""/>
+    <Graphics ConnectorType="Segmented" ZOrder="166" Color="000000" LineThickness="1.0">
+      <Point X="1142.0" Y="1436.0" GraphRef="csa13"/>
+      <Point X="1142.104766113346" Y="1373.527537100227"/>
+      <Point X="1258.0" Y="1374.0" GraphRef="id10073" ArrowHead="TBar"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="re105">
+  <Comment></Comment>
+<BiopaxRef>ann15</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="146" Color="000000" LineThickness="1.0">
+      <Point X="1502.6666666666667" Y="1815.2189781021896" GraphRef="sa137"/>
+      <Point X="1400.0000000000002" Y="1815.78102189781" GraphRef="sa75" ArrowHead="Arrow"/>
+      <Anchor Position="0.5032437321960919" Shape="None" GraphId="id10075"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="id10076">
+    <Attribute Key="org.pathvisio.core.ds" Value=""/>
+    <Attribute Key="org.pathvisio.core.id" Value=""/>
+    <Graphics ConnectorType="Segmented" ZOrder="146" Color="000000" LineThickness="1.0">
+      <Point X="1451.7667100351782" Y="1771.0000000000002" GraphRef="sa74"/>
+      <Point X="1451.0" Y="1815.0" GraphRef="id10075" ArrowHead="TBar"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="re88">
+  <Comment>TRAF6 PMID:23758787
+TRIM 38PMID:25172371
+TRIM30a PMID:18345001</Comment>
+<BiopaxRef>ann21</BiopaxRef>
+<BiopaxRef>ann22</BiopaxRef>
+<BiopaxRef>ann9</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="165" Color="000000" LineThickness="1.0">
+      <Point X="1106.0" Y="957.5" GraphRef="csa19"/>
+      <Point X="1106.4653692633228" Y="1029.2501499137995"/>
+      <Point X="1107.0" Y="1091.0" GraphRef="csa10" ArrowHead="Arrow"/>
+      <Anchor Position="0.6354518918595593" Shape="None" GraphId="id10077"/>
+      <Anchor Position="0.6354518918595593" Shape="None" GraphId="id10079"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="id10078">
+    <Attribute Key="org.pathvisio.core.ds" Value=""/>
+    <Attribute Key="org.pathvisio.core.id" Value=""/>
+    <Graphics ConnectorType="Segmented" ZOrder="165" Color="000000" LineThickness="1.0">
+      <Point X="1300.0" Y="1032.0" GraphRef="csa11"/>
+      <Point X="1106.5346307366772" Y="1037.2498500862005" GraphRef="id10077" ArrowHead="TBar"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="id10080">
+    <Attribute Key="org.pathvisio.core.ds" Value=""/>
+    <Attribute Key="org.pathvisio.core.id" Value=""/>
+    <Graphics ConnectorType="Segmented" ZOrder="165" Color="000000" LineThickness="1.0">
+      <Point X="967.0870514909254" Y="866.9999999999999" GraphRef="sa38"/>
+      <Point X="967.8064200350778" Y="1032.2742615901996"/>
+      <Point X="1106.5346307366772" Y="1037.2498500862005" GraphRef="id10079" ArrowHead="mim-modification"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="re93">
+  <Comment></Comment>
+<BiopaxRef>ann14</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="169" Color="000000" LineThickness="1.0">
+      <Point X="1030.0" Y="2060.0" GraphRef="sa81"/>
+      <Point X="1139.0" Y="2059.0" GraphRef="csa21" ArrowHead="Arrow"/>
+      <Anchor Position="0.39999999999999913" Shape="None" GraphId="id10081"/>
+      <Anchor Position="0.49539199639875436" Shape="None" GraphId="id10083"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="id10082">
+    <Attribute Key="org.pathvisio.core.ds" Value=""/>
+    <Attribute Key="org.pathvisio.core.id" Value=""/>
+    <Graphics ConnectorType="Segmented" ZOrder="169" Color="000000" LineThickness="1.0">
+      <Point X="1069.6191117092862" Y="1931.0" GraphRef="sa65"/>
+      <Point X="1073.6" Y="2059.6" GraphRef="id10081"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="id10084">
+    <Attribute Key="org.pathvisio.core.ds" Value=""/>
+    <Attribute Key="org.pathvisio.core.id" Value=""/>
+    <Graphics ConnectorType="Segmented" ZOrder="169" Color="000000" LineThickness="1.0">
+      <Point X="1084.5095066381919" Y="2141.0000000000005" GraphRef="sa138"/>
+      <Point X="1084.0" Y="2060.0" GraphRef="id10083" ArrowHead="TBar"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="re104">
+  <Comment></Comment>
+<BiopaxRef>ann23</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="145" Color="000000" LineThickness="1.0">
+      <Point X="791.0" Y="1031.0" GraphRef="sa134"/>
+      <Point X="791.0" Y="1201.0" GraphRef="sa10" ArrowHead="Arrow"/>
+      <Anchor Position="0.5" Shape="None" GraphId="id10085"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="id10086">
+    <Attribute Key="org.pathvisio.core.ds" Value=""/>
+    <Attribute Key="org.pathvisio.core.id" Value=""/>
+    <Graphics ConnectorType="Segmented" ZOrder="145" Color="000000" LineThickness="1.0">
+      <Point X="705.0" Y="1134.0" GraphRef="sa132"/>
+      <Point X="705.466075994326" Y="1114.1126252609772"/>
+      <Point X="791.0" Y="1116.0" GraphRef="id10085" ArrowHead="mim-modification"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="re109">
+  <Comment></Comment>
+<BiopaxRef>ann14</BiopaxRef>
+    <Graphics ConnectorType="Segmented" ZOrder="149" Color="000000" LineThickness="1.0">
+      <Point X="1196.0" Y="2161.7359735973587" GraphRef="sa77"/>
+      <Point X="1124.5" Y="2161.2640264026422" GraphRef="sa138" ArrowHead="Arrow"/>
+      <Anchor Position="0.5034990762000723" Shape="None" GraphId="id10087"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Interaction GraphId="id10088">
+    <Attribute Key="org.pathvisio.core.ds" Value=""/>
+    <Attribute Key="org.pathvisio.core.id" Value=""/>
+    <Graphics ConnectorType="Segmented" ZOrder="149" Color="000000" LineThickness="1.0">
+      <Point X="1160.4229926089743" Y="2220.0" GraphRef="sa139"/>
+      <Point X="1160.0" Y="2162.0" GraphRef="id10087" ArrowHead="mim-modification"/>
+    </Graphics>
+<Xref ID="" Database=""/>
+  </Interaction>
+  <Shape TextLabel="endosome" GraphId="ca3">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="1045.0" CenterY="967.5" Width="490.0" Height="225.0" ZOrder="4" FontSize="12" Valign="Bottom" ShapeType="Oval" LineThickness="3.0" Color="000000" FillColor="333300" Rotation="0.0" />
+    <Graphics CenterX="1382.5" CenterY="475.5" Width="485.0" Height="443.0" ZOrder="3" FontSize="12" Valign="Bottom" ShapeType="Oval" LineThickness="3.0" Color="000000" FillColor="cccc00" Rotation="0.0" />
   </Shape>
-  <Shape TextLabel="cell" GraphId="ca5">
+  <Shape TextLabel="nucleus" GraphId="ca2">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="690.0" CenterY="652.5" Width="1220.0" Height="885.0" ZOrder="2" FontSize="12" Valign="Bottom" ShapeType="Rectangle" LineThickness="3.0" Color="000000" FillColor="ff6666" Rotation="0.0" />
+    <Graphics CenterX="1015.0" CenterY="2129.0" Width="1102.0" Height="356.0" ZOrder="2" FontSize="12" Valign="Bottom" ShapeType="Oval" LineThickness="3.0" Color="000000" FillColor="cccc00" Rotation="0.0" />
   </Shape>
-  <Shape TextLabel="extracellular space" GraphId="ca7">
+  <Shape TextLabel="cell" GraphId="ca1">
     <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
     <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="690.0" CenterY="566.8125" Width="1300.0" Height="1116.375" ZOrder="1" FontSize="12" Valign="Bottom" ShapeType="Rectangle" LineThickness="3.0" Color="000000" FillColor="ff3366" Rotation="0.0" />
+    <Graphics CenterX="898.5" CenterY="1209.5" Width="1563.0" Height="2239.0" ZOrder="1" FontSize="12" Valign="Bottom" ShapeType="Rectangle" LineThickness="3.0" Color="000000" FillColor="cccc00" Rotation="0.0" />
   </Shape>
-  <Shape TextLabel="cell membrane" GraphId="ca4">
-    <Attribute Key="org.pathvisio.CellularComponentProperty" Value="Cell" />
-    <Attribute Key="org.pathvisio.DoubleLineProperty" Value="Double" />
-    <Graphics CenterX="690.0" CenterY="142.5" Width="1220.0" Height="135.0" ZOrder="3" FontSize="12" Valign="Bottom" ShapeType="Rectangle" LineThickness="3.0" Color="000000" FillColor="ff6666" Rotation="0.0" />
+  <Shape GraphId="sa140">
+    <Comment></Comment>
+    <Graphics CenterX="312.0" CenterY="895.0" Width="30.0" Height="30.0" ZOrder="142" FontSize="12" Valign="Middle" Color="000000" ShapeType="mim-degradation" FillColor="ffcccc"/>
   </Shape>
-  <Group GroupId="csa10" GraphId="csa10" TextLabel="BCL2/MCL1/BCL2L1" Style="Complex"/>
-  <Group GroupId="csa9" GraphId="csa9" TextLabel="BAD/BBC3/BCL2L11" Style="Complex"/>
-  <Group GroupId="csa2" GraphId="csa2" TextLabel="FAS/FASL" Style="Complex"/>
-  <Group GroupId="csa5" GraphId="csa5" TextLabel="Apoptosome" Style="Complex"/>
-  <Group GroupId="csa3" GraphId="csa3" TextLabel="BAD/BBC3/BCL2L11" Style="Complex"/>
-  <Group GroupId="csa1" GraphId="csa1" TextLabel="TNF/TNFRSF1A" Style="Complex"/>
-  <Group GroupId="csa11" GraphId="csa11" TextLabel="BCL2/MCL1/BCL2L1" Style="Complex"/>
-  <Group GroupId="csa6" GraphId="csa6" TextLabel="TRADD/FADD" Style="Complex"/>
+  <Shape GraphId="sa124">
+    <Comment></Comment>
+    <Graphics CenterX="512.0" CenterY="996.0" Width="30.0" Height="30.0" ZOrder="141" FontSize="12" Valign="Middle" Color="000000" ShapeType="mim-degradation" FillColor="ffcccc"/>
+  </Shape>
+  <Group GroupId="csa6" GraphId="csa6" TextLabel="P65/P015" Style="Complex"/>
+  <Group GroupId="csa11" GraphId="csa11" TextLabel="TRIM30a/TRIM38" Style="Complex"/>
+  <Group GroupId="csa4" GraphId="csa4" TextLabel="IKBKG/IKBKB/CHUK" Style="Complex"/>
+  <Group GroupId="csa22" GraphId="csa22" TextLabel="IKBKG/IKBKB/CHUK" Style="Complex"/>
+  <Group GroupId="csa10" GraphId="csa10" TextLabel="TAB2/TAB3/TAK1" Style="Complex"/>
+  <Group GroupId="csa15" GraphId="csa15" TextLabel="TRIM14/TRIM23" Style="Complex"/>
+  <Group GroupId="csa8" GraphId="csa8" TextLabel="LPS/TLR4/MYD88" Style="Complex"/>
+  <Group GroupId="csa13" GraphId="csa13" TextLabel="TRIM27/TRIM21" Style="Complex"/>
+  <Group GroupId="csa2" GraphId="csa2" TextLabel="Hops Complex" Style="Complex"/>
+  <Group GroupId="csa19" GraphId="csa19" TextLabel="TAB2/TAB3/TAK1" Style="Complex"/>
+  <Group GroupId="csa21" GraphId="csa21" TextLabel="NFKB1:NFKNIA" Style="Complex"/>
+  <Group GroupId="csa7" GraphId="csa7" TextLabel="P65/P015" Style="Complex"/>
+  <Group GroupId="csa12" GraphId="csa12" TextLabel="NEMO/IKKA/IKKB" Style="Complex"/>
+  <Group GroupId="csa17" GraphId="csa17" TextLabel="TLR7/8/9" Style="Complex"/>
+  <Group GroupId="csa9" GraphId="csa9" TextLabel="TLR7/8/9" Style="Complex"/>
+  <Group GroupId="csa20" GraphId="csa20" TextLabel="NEMO/IKKA/IKKB" Style="Complex"/>
+  <Group GroupId="csa3" GraphId="csa3" TextLabel="LPS/TNF α/IL-1" Style="Complex"/>
   <InfoBox CenterX="0.0" CenterY="0.0"/>
 <Biopax>
-<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann17">
-  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17428862</bp:ID>
-  <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-</bp:PublicationXref>
-<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann2">
-  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16845612</bp:ID>
-  <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-</bp:PublicationXref>
-<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann5">
-  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32075877</bp:ID>
-  <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-</bp:PublicationXref>
-<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann15">
-  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31226023</bp:ID>
-  <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-</bp:PublicationXref>
-<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann12">
-  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32416961</bp:ID>
-  <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-</bp:PublicationXref>
-<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann8">
-  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32785274</bp:ID>
-  <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-</bp:PublicationXref>
-<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann1">
-  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32555321</bp:ID>
-  <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-</bp:PublicationXref>
-<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann13">
-  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16112641</bp:ID>
-  <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-</bp:PublicationXref>
-<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann6">
-  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32155444</bp:ID>
+<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann21">
+  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18345001</bp:ID>
   <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
 </bp:PublicationXref>
 <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann11">
-  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33264373</bp:ID>
+  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17706453</bp:ID>
   <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
 </bp:PublicationXref>
-<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann3">
-  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33100263</bp:ID>
+<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann19">
+  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23408607</bp:ID>
   <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
 </bp:PublicationXref>
-<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann4">
-  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32275855</bp:ID>
+<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann13">
+  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22539786</bp:ID>
   <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
 </bp:PublicationXref>
-<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann14">
-  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32363136</bp:ID>
-  <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
-</bp:PublicationXref>
-<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann10">
-  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32654247</bp:ID>
+<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann20">
+  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24379373</bp:ID>
   <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
 </bp:PublicationXref>
 <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann16">
-  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15694340</bp:ID>
+  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20724660</bp:ID>
   <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
 </bp:PublicationXref>
-<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann7">
-  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32225176</bp:ID>
+<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann12">
+  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28829373</bp:ID>
+  <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+</bp:PublicationXref>
+<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann18">
+  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26358190</bp:ID>
+  <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+</bp:PublicationXref>
+<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann10">
+  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31034780</bp:ID>
+  <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+</bp:PublicationXref>
+<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann2">
+  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">22588174</bp:ID>
   <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
 </bp:PublicationXref>
 <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann9">
-  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32818817</bp:ID>
+  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23758787</bp:ID>
+  <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+</bp:PublicationXref>
+<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann5">
+  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25375324</bp:ID>
+  <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+</bp:PublicationXref>
+<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann8">
+  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21782231</bp:ID>
+  <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+</bp:PublicationXref>
+<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann17">
+  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27695001</bp:ID>
+  <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+</bp:PublicationXref>
+<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann14">
+  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26999213</bp:ID>
+  <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+</bp:PublicationXref>
+<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann3">
+  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15316659</bp:ID>
+  <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+</bp:PublicationXref>
+<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann4">
+  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17715238</bp:ID>
+  <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+</bp:PublicationXref>
+<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann7">
+  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15361868</bp:ID>
+  <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+</bp:PublicationXref>
+<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann6">
+  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">19590927</bp:ID>
+  <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+</bp:PublicationXref>
+<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann22">
+  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25172371</bp:ID>
+  <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+</bp:PublicationXref>
+<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann23">
+  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31231549</bp:ID>
+  <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+</bp:PublicationXref>
+<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann1">
+  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32172672</bp:ID>
+  <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+</bp:PublicationXref>
+<bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="ann15">
+  <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21135871</bp:ID>
   <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
 </bp:PublicationXref>
 </Biopax>

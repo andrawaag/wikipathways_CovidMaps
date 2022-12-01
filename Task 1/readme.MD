@@ -95,11 +95,14 @@ Not supported
 ### saveCurationTag
 #### comment
 Not supported
-
 GET /getCurationTags
 GET /getCurationTagsByName
-GET /getCurationTagHistory
-GET /getColoredPathway
+### getCurationTagHistory
+#### comment
+Not supported
+### getColoredPathway
+#### comment
+Not supported
 GET /findInteractions
 GET /getXrefList
 GET /findPathwaysByLiterature
